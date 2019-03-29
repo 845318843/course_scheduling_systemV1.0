@@ -1,0 +1,63 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DAL
+{
+    public class DAL_labInfo
+    {
+        DAL_common c = new DAL_common();
+        SqlDB sql = new SqlDB();
+        string str = "";
+        LabInfo l = new LabInfo();
+        public DataTable findAll()
+        {
+            return c.findAll(l);
+        }
+        public bool delete(string id)
+        {
+            l.id = int.Parse(id);
+            return c.delete(l);
+        }
+        public bool update(LabInfo ll)
+        {
+            return c.update(ll);
+        }
+        public bool insert(LabInfo ll)
+        {
+            return c.insert(ll);
+        }
+        public DataTable getOne(string id)
+        {
+            try
+            {
+                str = "select * from LabInfo where id=" + id + "";
+                return sql.FillDt(str);
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+        public bool state(string id)
+        {
+            try
+            {
+                str = "select remark1 from LabInfo where id=" + id + "";
+                DataTable dt = sql.FillDt(str);
+                if (dt.Rows[0][0].ToString() == "1")
+                    str = "update LabInfo set remark1='0' where id=" + id + "";
+                else
+                    str = "update LabInfo set remark1='1' where id=" + id + "";
+                return sql.ExecSql(str);
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\bin\LabCourseSys.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\bin\LabCourseSys.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\bin\BLL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\bin\DAL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\bin\NPOI.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\bin\BLL.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\bin\DAL.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\obj\Release\LabCourseSys.csprojResolveAssemblyReference.cache
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\obj\Release\LabCourseSys.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\obj\Release\LabCourseSys.pdb

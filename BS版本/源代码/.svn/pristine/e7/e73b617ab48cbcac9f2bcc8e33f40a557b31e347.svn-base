@@ -1,0 +1,86 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data;
+
+namespace DAL
+{
+   public class DAL_users
+    {
+       DAL_common d=new DAL_common();
+       SqlDB sql =new SqlDB();
+       string str = "";
+       Users u = new Users();
+       public DataTable findAll()
+       {
+           return d.findAll(u);
+       }
+
+       public bool delete(string id)
+       {
+           u.id = int.Parse(id);
+           return d.delete(u);
+       }
+
+       public bool update(Users u)
+       {
+           return d.update(u);
+       }
+
+       public bool insert(Users u)
+       {
+           return d.insert(u);
+       }
+       /// <summary>
+       /// 判断用户名是否存在
+       /// </summary>
+       /// <param name="str1">用户名</param>
+       /// <returns>bool值</returns>
+       public bool judgeName(string str1)
+       {
+           try
+           {
+               str = "select name from Users where name='"+ str1+"'";
+               return sql.ExecSql(str);
+           }
+           catch (Exception)
+           {
+               return false;
+           }
+       }
+
+       /// <summary>
+       /// 判断用户名与密码是否匹配
+       /// </summary>
+       /// <param name="str1">用户名</param>
+       /// <param name="str2">密码</param>
+       /// <returns>bool值</returns>
+       public bool judgeIs(string str1,string str2)
+       {
+           try
+           {
+               str = "select name from Users where name='"+str1+"' and pwd='"+str2+"'";
+               return sql.ExecSql(str);
+           }
+           catch (Exception)
+           {
+               return false;
+           }
+       }
+       public DataTable getOne(string id)
+       {
+           try
+           {
+               str = "select * from LabInfo where id=" + id + "";
+               return sql.FillDt(str);
+           }
+           catch (Exception)
+           {
+               return null;
+           }
+       }
+
+    }
+}

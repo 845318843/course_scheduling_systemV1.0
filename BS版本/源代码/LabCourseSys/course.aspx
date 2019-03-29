@@ -1,0 +1,28 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="course.aspx.cs" Inherits="LabCourseSys.course" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="../../Js/jquery-1.9.1.min.js" type="text/javascript"></script>
+
+    <script src="../../js/course.js" type="text/javascript"></script>
+    <script src="../../layer/layer.js" type="text/javascript"></script>
+    <link href="../styles/Common.css" rel="stylesheet" />
+    <link href="../styles/Index2.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="maindiv" >
+                <div id="contents">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

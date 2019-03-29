@@ -1,0 +1,20 @@
+E:\新建文件夹 (5)\CourseLabSystem1\Model\bin\Debug\Model.dll
+E:\新建文件夹 (5)\CourseLabSystem1\Model\bin\Debug\Model.pdb
+E:\新建文件夹 (5)\CourseLabSystem1\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\新建文件夹 (5)\CourseLabSystem1\Model\obj\Debug\Model.dll
+E:\新建文件夹 (5)\CourseLabSystem1\Model\obj\Debug\Model.pdb
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\Model\bin\Debug\Model.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\Model\bin\Debug\Model.pdb
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\Model\obj\Debug\Model.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\Model\obj\Debug\Model.pdb
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\Model\bin\Debug\Model.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\Model\bin\Debug\Model.pdb
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\Model\obj\Debug\Model.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\Model\obj\Debug\Model.pdb
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\Model\bin\Debug\Model.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\Model\bin\Debug\Model.pdb
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\Model\obj\Debug\Model.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\Model\obj\Debug\Model.pdb

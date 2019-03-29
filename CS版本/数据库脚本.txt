@@ -1,0 +1,296 @@
+USE [CourseLabSystem]
+GO
+/****** Object:  Table [dbo].[Users]    Script Date: 11/29/2017 12:16:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Users](
+	[id] [int] NOT NULL,
+	[UsersName] [nvarchar](50) NOT NULL,
+	[PassWord] [nvarchar](50) NOT NULL,
+	[role] [int] NOT NULL,
+ CONSTRAINT [IX_Users] UNIQUE NONCLUSTERED 
+(
+	[UsersName] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'id' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Users', @level2type=N'COLUMN',@level2name=N'id'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'用户名' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Users', @level2type=N'COLUMN',@level2name=N'UsersName'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'密码' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Users', @level2type=N'COLUMN',@level2name=N'PassWord'
+GO
+INSERT [dbo].[Users] ([id], [UsersName], [PassWord], [role]) VALUES (1, N'sa', N'E10ADC3949BA59ABBE56E057F20F883E', 1)
+INSERT [dbo].[Users] ([id], [UsersName], [PassWord], [role]) VALUES (2, N'admin', N'21232F297A57A5A743894A0E4A801FC3', 1)
+INSERT [dbo].[Users] ([id], [UsersName], [PassWord], [role]) VALUES (10010, N'10010', N'A17479231DC298309A3FDA7D7D00111A', 2)
+/****** Object:  Table [dbo].[Teacher]    Script Date: 11/29/2017 12:16:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Teacher](
+	[id] [int] NOT NULL,
+	[TeacherName] [nvarchar](50) NOT NULL,
+	[Department] [nvarchar](50) NOT NULL,
+	[Major] [nvarchar](50) NOT NULL,
+ CONSTRAINT [IX_Teacher] UNIQUE NONCLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'工号' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Teacher', @level2type=N'COLUMN',@level2name=N'id'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'老师姓名' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Teacher', @level2type=N'COLUMN',@level2name=N'TeacherName'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'院系' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Teacher', @level2type=N'COLUMN',@level2name=N'Department'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'专业' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Teacher', @level2type=N'COLUMN',@level2name=N'Major'
+GO
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001001, N'陈宏子', N'机械与汽车工程学院', N'汽车服务工程 ')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001002, N'秦婷', N'机械与汽车工程学院', N'测控技术与仪器')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001017, N'朱寅竹', N'艺术设计学院', N'环境艺术设计')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001018, N'尹明', N'艺术设计学院', N'动画')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001019, N'徐振方', N'经济管理学院', N'工商管理')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001020, N'罗玉婧', N'经济管理学院', N'财务管理')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001021, N'何朝燕', N'经济管理学院', N'会计')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001022, N'张荷', N'电子商务学院', N'国际经济与贸易')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001023, N'仇国林', N'电子商务学院', N'市场营销')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001024, N'冯敏敏', N'电子商务学院', N'电子商务')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001025, N'俞丽', N'外国语学院', N'商务英语')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001026, N'李鸾', N'外国语学院', N'商务日语')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001027, N'张林锋', N'外国语学院', N'应用翻译')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001068, N'刘甜甜', N'计算机与信息工程学院', N'物联网')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001003, N'曹丽娜', N'机械与汽车工程学院', N'材料成型及控制工程')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001004, N'李娜', N'计算机与信息工程学院', N'计算机科学与技术')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001005, N'姜钰', N'计算机与信息工程学院', N'物联网')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001006, N'王官君', N'计算机与信息工程学院', N'通信工程')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001007, N'王红梅', N'电子与电气工程学院', N'电子信息工程')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001008, N'马海娟', N'电子与电气工程学院', N'电子科学与技术')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001009, N'胡毅秉', N'电子与电气工程学院', N'电气工程及其自动化')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001010, N'刘易', N'土木工程学院', N'给排水科学与工程')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001011, N'周彦楠', N'土木工程学院', N'道路桥梁与渡河工程')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001012, N'王聪', N'土木工程学院', N'土木工程')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001013, N'杨诗琪', N'建筑与城市规划学院', N'建筑学')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001014, N'刘嘉佳', N'建筑与城市规划学院', N'城乡规划')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001015, N'孙燕冉', N'建筑与城市规划学院', N'历史建筑保护工程')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001016, N'汪海源', N'艺术设计学院', N'视觉传达设计')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001028, N'王敏', N'数学与统计学院', N'数学与应用数学')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001029, N'景芳', N'数学与统计学院', N'应用统计学')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001030, N'张雯雯', N'数学与统计学院', N'经济数学')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001031, N'阮浙临', N'音乐学院', N'音乐表演')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001032, N'王晶', N'音乐学院', N'音乐学')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001033, N'肖风迎', N'音乐学院', N'民族音乐')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001034, N'冯超', N'文法学院', N'汉语言文学')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001035, N'郭霞', N'文法学院', N'法学')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001036, N'李艳茹', N'文法学院', N'播音与主持艺术')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001037, N'阎慧', N'生物与化学工程学院', N'生物工程')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001038, N'胡毅秉', N'生物与化学工程学院', N'化学工程与工艺')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001039, N'吴思锋', N'生物与化学工程学院', N'食品科学与工程')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001040, N'李乔', N'张仲景国医国药学院', N'中医学')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001041, N'李梓', N'张仲景国医国药学院', N'中药学')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001042, N'黄迎春', N'张仲景国医国药学院', N'护理学')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001043, N'全娟', N'软件学院', N'游戏开发技术')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001044, N'彭铮', N'软件学院', N'云计算')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001045, N'邓天文', N'软件学院', N'大数据')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001046, N'刘嘉佳', N'师范学院', N'学前教育')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001047, N'陈秀春', N'师范学院', N'小学教育')
+INSERT [dbo].[Teacher] ([id], [TeacherName], [Department], [Major]) VALUES (1001048, N'陈科生', N'师范学院', N'音乐表演')
+/****** Object:  Table [dbo].[CourseBuild]    Script Date: 11/29/2017 12:16:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[CourseBuild](
+	[Building_Id] [nvarchar](50) NOT NULL,
+	[Department] [nvarchar](50) NOT NULL,
+	[Garde] [nvarchar](50) NOT NULL,
+	[Name] [nvarchar](50) NOT NULL,
+	[Week] [nvarchar](50) NOT NULL,
+	[Weekday] [nvarchar](50) NOT NULL,
+	[Section] [nvarchar](50) NOT NULL,
+	[Teacher] [nvarchar](50) NOT NULL,
+	[Course] [nvarchar](50) NOT NULL,
+	[Class] [nvarchar](50) NOT NULL,
+	[Year] [nvarchar](50) NOT NULL,
+	[Term] [nvarchar](50) NOT NULL,
+	[reason] [nvarchar](50) NULL
+) ON [PRIMARY]
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'教学楼id' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'CourseBuild', @level2type=N'COLUMN',@level2name=N'Building_Id'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'院系' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'CourseBuild', @level2type=N'COLUMN',@level2name=N'Department'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'年级' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'CourseBuild', @level2type=N'COLUMN',@level2name=N'Garde'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'教师名称' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'CourseBuild', @level2type=N'COLUMN',@level2name=N'Name'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'第几周' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'CourseBuild', @level2type=N'COLUMN',@level2name=N'Week'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'周几' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'CourseBuild', @level2type=N'COLUMN',@level2name=N'Weekday'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'节次' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'CourseBuild', @level2type=N'COLUMN',@level2name=N'Section'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'老师' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'CourseBuild', @level2type=N'COLUMN',@level2name=N'Teacher'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'课程' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'CourseBuild', @level2type=N'COLUMN',@level2name=N'Course'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'班级' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'CourseBuild', @level2type=N'COLUMN',@level2name=N'Class'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'学年' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'CourseBuild', @level2type=N'COLUMN',@level2name=N'Year'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'学期' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'CourseBuild', @level2type=N'COLUMN',@level2name=N'Term'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'原因' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'CourseBuild', @level2type=N'COLUMN',@level2name=N'reason'
+GO
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'1', N'生物与化学工程学院', N'2015', N'101多媒体教室', N'1,2,3', N'一', N'1,2', N'李梓', N'中医诊断学', N'化工一班', N'2017-2018', N'1', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'1', N'生物与化学工程学院', N'2015', N'101多媒体教室', N'1,2', N'三', N'3,4', N'王官君', N'数据结构', N'化工一班', N'2017-2018', N'1', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'1', N'计算机与信息工程学院', N'2016', N'101多媒体教室', N'1,2,3,4,5,6,7,8', N'二', N'1,2', N'李娜', N'数据结构', N'计科（信息）', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'1', N'软件学院', N'2016', N'101多媒体教室', N'1,2,3,4', N'二', N'1,2', N'李娜', N'数据结构', N'云计算二班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'1', N'软件学院', N'2016', N'101多媒体教室', N'1,2,3,4', N'二', N'1,2', N'王官君', N'数据结构', N'云计算二班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'1', N'计算机与信息工程学院', N'2016', N'101多媒体教室', N'1,2,3', N'二', N'3,4', N'姜钰', N'c++程序与设计', N'计科二班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'7', N'计算机与信息工程学院', N'2016', N'218多媒体教室', N'1,2,3,4,5,6,7,8', N'二', N'5,6', N'李娜', N'c++程序与设计', N'计科一班', N'2017-2018', N'2', N' ')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'7', N'计算机与信息工程学院', N'2016', N'218多媒体教室', N'1,2', N'三', N'1,2', N'王官君', N'数据结构', N'计科一班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'7', N'计算机与信息工程学院', N'2016', N'218多媒体教室', N'1,2', N'三', N'1,2', N'姜钰', N'数据结构', N'计科二班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'7', N'计算机与信息工程学院', N'2016', N'218多媒体教室', N'1,2,3,4,5,6,7,8', N'二', N'5,6', N'李娜', N'c++程序与设计', N'计科一班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'7', N'计算机与信息工程学院', N'2016', N'218多媒体教室', N'1,2,3', N'三', N'3,4', N'姜钰', N'数据结构', N'计科二班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'1', N'计算机与信息工程学院', N'2016', N'101多媒体教室', N'1,2,3,4,5,6,7,8', N'二', N'1,2', N'李娜', N'数据结构', N'计科二班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'1', N'计算机与信息工程学院', N'2016', N'101多媒体教室', N'1,2,3,4', N'一', N'3,4', N'姜钰', N'数据结构', N'计科二班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'1', N'计算机与信息工程学院', N'2016', N'101多媒体教室', N'1,2,3', N'二', N'3,4', N'李娜', N'数据结构', N'计科一班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'1', N'计算机与信息工程学院', N'2016', N'101多媒体教室', N'1,2,3,4,5', N'一', N'1,2', N'姜钰', N'c++程序与设计', N'计科一班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'1', N'计算机与信息工程学院', N'2016', N'101多媒体教室', N'1,2,3,4,5', N'一', N'1,2', N'李娜', N'c++程序与设计', N'计科二班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'7', N'计算机与信息工程学院', N'2016', N'218多媒体教室', N'1,2', N'四', N'1,2', N'王官君', N'数据结构', N'计科二班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'1', N'计算机与信息工程学院', N'2016', N'101多媒体教室', N'1,2', N'二', N'1,2', N'李梓', N'中医诊断学', N'计科一班', N'2017-2018', N'2', N' ')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'7', N'计算机与信息工程学院', N'2015', N'218多媒体教室', N'1,2,3', N'二', N'3,4', N'王官君', N'数据结构', N'计科卓越班', N'2017-2018', N'2', N'')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'4', N'计算机与信息工程学院', N'2016', N'201教室', N'1,2,3', N'三', N'3,4', N'刘甜甜', N'数字与电路模拟', N'计科一班', N'2017-2018', N'2', N' ')
+INSERT [dbo].[CourseBuild] ([Building_Id], [Department], [Garde], [Name], [Week], [Weekday], [Section], [Teacher], [Course], [Class], [Year], [Term], [reason]) VALUES (N'4', N'计算机与信息工程学院', N'2016', N'201教室', N'1,2,3', N'三', N'3,4', N'刘甜甜', N'数字与电路模拟', N'计科一班', N'2017-2018', N'2', N'')
+/****** Object:  Table [dbo].[Classroom]    Script Date: 11/29/2017 12:16:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Classroom](
+	[Classroom_Id] [nvarchar](50) NOT NULL,
+	[Building_Id] [nvarchar](50) NOT NULL,
+	[Name] [nvarchar](50) NOT NULL,
+	[Descride] [nvarchar](50) NOT NULL,
+	[People] [int] NOT NULL,
+	[manager] [nvarchar](50) NOT NULL,
+ CONSTRAINT [IX_Classroom] UNIQUE NONCLUSTERED 
+(
+	[Classroom_Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'门牌号' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Classroom', @level2type=N'COLUMN',@level2name=N'Classroom_Id'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'教学楼id' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Classroom', @level2type=N'COLUMN',@level2name=N'Building_Id'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'教室名称' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Classroom', @level2type=N'COLUMN',@level2name=N'Name'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'教室简介' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Classroom', @level2type=N'COLUMN',@level2name=N'Descride'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'可容纳人数' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Classroom', @level2type=N'COLUMN',@level2name=N'People'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'管理员' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Classroom', @level2type=N'COLUMN',@level2name=N'manager'
+GO
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'1101', N'1', N'101多媒体教室', N'一般用来上英语课', 50, N'俞丽')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'2303', N'2', N'303多媒体教室', N'多媒体小教室', 50, N'阎慧')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'3201', N'3', N'201教室', N'一般用来上公共课', 150, N'陈宏子')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'4201', N'4', N'201教室', N'小教室', 150, N'王红梅')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'5319', N'5', N'319多媒体教室', N'多媒体大教室', 100, N'王聪')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'6415', N'6', N'415教室', N'空教室', 50, N'秦婷婷')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'7313', N'7', N'313机房', N'神舟电脑教室', 50, N'李娜')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'8201', N'8', N'201画室', N'用来给学生画画', 50, N'尹明')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'9319', N'9', N'319教室', N'大教室', 100, N'张荷')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'10201', N'10', N'201多媒体教室', N'多媒体小教室', 50, N'李艳茹')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'11605', N'11', N'605药房', N'药物存储', 50, N'李梓')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'12316', N'12', N'316琴房', N'琴房', 50, N'王晶')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'13405', N'13', N'405教室', N'小教室', 50, N'杨诗琪')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'14506', N'14', N'506机房', N'上机', 50, N'邓天文')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'7101', N'7', N'101教室', N'用来考试', 150, N'李娜')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'7201', N'7', N'201教室', N'大教室', 150, N'姜钰')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'7218', N'7', N'218多媒体教室', N'多媒体小教室', 50, N'姜钰')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'7401', N'7', N'401机房', N'小型机房', 60, N'杨天培')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'15310', N'15', N'310机房', N'机房', 60, N'杨怡胡')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'8101', N'8', N'101多媒体教室', N'大教室', 100, N'李腾')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'7505', N'7', N'505机房', N'小型机房', 50, N'王官君')
+INSERT [dbo].[Classroom] ([Classroom_Id], [Building_Id], [Name], [Descride], [People], [manager]) VALUES (N'7319', N'7', N'319教室', N'小教室', 100, N'李娜')
+/****** Object:  Table [dbo].[Basic_Information]    Script Date: 11/29/2017 12:16:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Basic_Information](
+	[Garde] [nvarchar](50) NOT NULL,
+	[ClassId] [int] NOT NULL,
+	[Class] [nvarchar](50) NOT NULL,
+	[Department] [nvarchar](50) NOT NULL,
+ CONSTRAINT [IX_Basic_Information] UNIQUE NONCLUSTERED 
+(
+	[ClassId] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'年级' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Basic_Information', @level2type=N'COLUMN',@level2name=N'Garde'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'班级号' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Basic_Information', @level2type=N'COLUMN',@level2name=N'ClassId'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'班级' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Basic_Information', @level2type=N'COLUMN',@level2name=N'Class'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'院系' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'Basic_Information', @level2type=N'COLUMN',@level2name=N'Department'
+GO
+INSERT [dbo].[Basic_Information] ([Garde], [ClassId], [Class], [Department]) VALUES (N'2016', 16069001, N'计科一班', N'计算机与信息工程学院')
+INSERT [dbo].[Basic_Information] ([Garde], [ClassId], [Class], [Department]) VALUES (N'2016', 16069002, N'计科二班', N'计算机与信息工程学院')
+INSERT [dbo].[Basic_Information] ([Garde], [ClassId], [Class], [Department]) VALUES (N'2017', 17059015, N'机制三班', N'机械与汽车工程学院')
+INSERT [dbo].[Basic_Information] ([Garde], [ClassId], [Class], [Department]) VALUES (N'2017', 17056423, N'土木二班', N'土木工程学院')
+INSERT [dbo].[Basic_Information] ([Garde], [ClassId], [Class], [Department]) VALUES (N'2017', 17046786, N'计科一班', N'计算机与信息工程学院')
+INSERT [dbo].[Basic_Information] ([Garde], [ClassId], [Class], [Department]) VALUES (N'2016', 16048364, N'云计算二班', N'软件学院')
+INSERT [dbo].[Basic_Information] ([Garde], [ClassId], [Class], [Department]) VALUES (N'2015', 15067451, N'中医二班', N'张仲景国医国药学院')
+INSERT [dbo].[Basic_Information] ([Garde], [ClassId], [Class], [Department]) VALUES (N'2015', 15034834, N'化工一班', N'生物与化学工程学院')
+INSERT [dbo].[Basic_Information] ([Garde], [ClassId], [Class], [Department]) VALUES (N'2015', 15067453, N'护理一班', N'张仲景国医国药学院')
+INSERT [dbo].[Basic_Information] ([Garde], [ClassId], [Class], [Department]) VALUES (N'2016', 16043486, N'艺设一班', N'艺术设计学院')
+INSERT [dbo].[Basic_Information] ([Garde], [ClassId], [Class], [Department]) VALUES (N'2016', 16018673, N'计科（信息）', N'计算机与信息工程学院')
+INSERT [dbo].[Basic_Information] ([Garde], [ClassId], [Class], [Department]) VALUES (N'2015', 15063212, N'计科卓越班', N'计算机与信息工程学院')
+/****** Object:  Table [dbo].[AddCourse]    Script Date: 11/29/2017 12:16:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[AddCourse](
+	[Course_Id] [int] NOT NULL,
+	[Course] [nvarchar](50) NOT NULL,
+	[Department] [nvarchar](50) NOT NULL,
+ CONSTRAINT [IX_Course] UNIQUE NONCLUSTERED 
+(
+	[Course_Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'课程ID' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'AddCourse', @level2type=N'COLUMN',@level2name=N'Course_Id'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'课程' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'AddCourse', @level2type=N'COLUMN',@level2name=N'Course'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'院系' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'AddCourse', @level2type=N'COLUMN',@level2name=N'Department'
+GO
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008615, N'数据结构', N'计算机与信息工程学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008667, N'c++程序与设计', N'计算机与信息工程学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008672, N'商务英语', N'外国语学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008612, N'土木工程施工', N'土木工程学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008694, N'高等数学', N'计算机与信息工程学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008662, N'工程与微机制图', N'机械与汽车工程学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008636, N'中医诊断学', N'张仲景国医国药学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008686, N'会计学', N'经济管理学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008646, N'古代汉语', N'文法学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008697, N'云计算基础', N'软件学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008633, N'药理学', N'张仲景国医国药学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008698, N'综合英语1', N'外国语学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008601, N'线代数学', N'计算机与信息工程学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008602, N'数字与电路模拟', N'计算机与信息工程学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008603, N'形式与政策', N'计算机与信息工程学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008604, N'体育', N'计算机与信息工程学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008605, N'大学物理', N'计算机与信息工程学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008606, N'离散数学', N'计算机与信息工程学院')
+INSERT [dbo].[AddCourse] ([Course_Id], [Course], [Department]) VALUES (1008607, N'C语言程序与设计', N'计算机与信息工程学院')

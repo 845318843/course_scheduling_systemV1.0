@@ -1,0 +1,78 @@
+﻿var labs = "";
+$(function () {
+    loadAllC();
+})
+function plan(id, course, num) {
+    //alert(num);
+    sessionStorage["num"] = num;
+    sessionStorage["lab"] = course;
+    sessionStorage["labID"] = id;
+    layer.open({
+        type: 2,
+        title: '实验室排课',
+        shadeClose: true,
+        shade: 0.5,
+        area: ['60%', '70%'],
+        content: 'labPlan.aspx',
+        end: function () {
+            fresh();
+        }
+    });
+}
+function table(id, course) {
+    sessionStorage["lab"] = course;
+    sessionStorage["labID"] = id;
+    layer.open({
+        type: 2,
+        title: course + '课表',
+        shadeClose: true,
+        shade: 0.5,
+        area: ['65%', '80%'],
+        content: 'CourseTable.aspx',
+        end: function () {
+
+        }
+    });
+}
+function fresh() {
+    $.ajax(
+   {
+       type: "post",
+       url: "webService/labCourseService.asmx/fresh",
+       contentType: "application/json; charset=utf-8",
+       dataType: "json",
+       async: false,
+       success: function (result) {
+
+       },
+       error: function (err) {
+
+       }
+   }
+   );
+}
+function loadAllC() {
+    var htmltxt = "";
+    $.ajax({
+        type: "post",
+        contentType: "application/json",
+        url: "webService/labInfoService.asmx/findAll",
+        dataType: "json",
+        async: false,
+        success: function (result) {
+            var res = eval(result.d);
+            htmltxt = "<table class='mytableheader'> <tr class='bgf1f1f1'><td>序号</td><td>实验室名称</td><td>可容纳人数</td><td>简介</td><td>操作</td></tr>";
+            $.each(res, function (i, d) {
+                var n = i;
+                var no = n + 1;
+                if (d.备注1 == "1")
+                    htmltxt += " <tr><td>" + no + "</td><td>" + d.名称 + "</td><td>" + d.容纳人数 + "</td><td>" + d.简介 + "</td><td> <span onclick='table(" + d.主键 + ",\"" + d.名称 + "\");'>查看课表</span><span style=''><input type='button'  value='排课' onclick='plan(" + d.主键 + ",\"" + d.名称 + "\"," + d.容纳人数 + ");' /></span></td></tr>";
+            });
+            htmltxt += "</table>";
+            $("#contents").html(htmltxt);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+
+        }
+    });
+}

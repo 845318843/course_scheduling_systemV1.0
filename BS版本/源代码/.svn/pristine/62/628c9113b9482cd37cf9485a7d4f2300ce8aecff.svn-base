@@ -1,0 +1,99 @@
+﻿using Common;
+using DAL;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BLL
+{
+    public class BLL_labCourse
+    {
+        DAL_labCourse l = new DAL_labCourse();
+        public bool insert(LabCourse ll)
+        {
+            return l.insert(ll);
+        }
+        public bool function(Functions f)
+        {
+            return l.function(f);
+        }
+        public string num()
+        {
+            return l.num();
+        }
+        public string findSec(string type)
+        {
+            return JsonCast.DataTableToJSON(l.findSec(type), false).ToString();
+        }
+        public string chinese(int a)
+        {
+            switch (a)
+            {
+                case 1: return "一";
+                case 2: return "二";
+                case 3: return "三";
+                case 4: return "四";
+                case 5: return "五";
+                case 6: return "六";
+                    default:
+                    return "日";
+            }
+        }
+        public string findFunction(string num)
+        {
+            try
+            {
+                DataTable dd = l.findFunction(num);
+                DataTable dt = new DataTable();
+                dt.Columns.Add("周次");
+                 dt.Columns.Add("星期");
+                dt.Columns.Add("节次");
+                string type = "";
+                List<string> week = new List<string>();
+                List<string> section = new List<string>();
+                type = dd.Rows[0][0].ToString();
+                for (int i = 0; i < dd.Rows.Count; i++)
+                {
+                    if (dd.Rows[i]["type"].ToString() == "section")
+                        section.Add(dd.Rows[i]["no"].ToString());
+                    else
+                        week.Add(dd.Rows[i]["no"].ToString());
+                }
+                for (int j = 0; j < section.Count; j++)
+                {
+                    DataRow r=dt.NewRow();
+                    r[0] = week[j];
+                    int a = int.Parse(section[j]);
+                    int b=a%7;
+                    if (b == 0)
+                        r[1] = "日";
+                    else
+                    {
+                        r[1] = chinese(b);
+                    }
+                    if (a <= 7)
+                        r[2] = "1.2";
+                    else if (a > 7 && a <= 14)
+                        r[2] = "3.4";
+                    else if (a > 14 && a <= 21)
+                        r[2] = "4.5";
+                    else if (a > 21 && a <= 28)
+                        r[2] = "7.8";
+                    else
+                        r[2] = "9.10";
+                    dt.Rows.Add(r.ItemArray);
+                }
+                return JsonCast.DataTableToJSON(dt, false).ToString();
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+      
+    }
+
+}

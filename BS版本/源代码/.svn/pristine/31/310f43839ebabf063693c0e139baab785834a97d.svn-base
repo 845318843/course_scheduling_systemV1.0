@@ -1,0 +1,15 @@
+﻿$(function () {
+    $("#nav li").hover(
+                     function () {
+                         $(this).find("ul").show(100);
+                     },
+                     function () {
+                         $(this).find("ul").hide(200);
+                     }
+             );
+    $("#mainDiv").load("lab.aspx");
+    $("li a").click(function () {     
+        var page = $(this).attr("name");
+        $("#mainDiv").load(page);
+    });
+})

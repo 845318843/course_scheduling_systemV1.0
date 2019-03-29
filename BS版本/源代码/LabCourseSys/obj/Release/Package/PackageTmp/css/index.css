@@ -1,0 +1,122 @@
+/* 全局 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #0369b4;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+#clear {
+    clear: both;
+}
+
+body {
+    font-size: 12px;
+    text-align: left;
+    font-weight: normal;
+    font-family: "微软雅黑", "Arial Unicode MS";
+    line-height: 24px;
+    background: #fff;
+    color: #0369b4;
+}
+
+a {
+    blr: expression(this.onFocus=this.blur());
+}
+/*for IE*/
+a {
+    outline: none;
+}
+/*for Firefox*/
+ol, p, dl, li {
+    margin: 0;
+    pading: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    border-top: 3px solid #15609d;
+    overflow: hidden;
+    background: url(../images/header_bg.jpg) left bottom repeat-x;
+}
+
+.logo {
+    width: 300px;
+    margin: 0px auto 0px;
+    height: 60px;
+    overflow: hidden;
+}
+
+
+
+.menu {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+ul.nav {
+    padding: 0px;
+    margin: 0px;
+}
+
+    ul.nav li {
+        width: 33%;
+        height: 94px;
+        margin: 5px 0px;
+        float: left;
+        display: inline;
+        text-align: center;
+        overflow: hidden;
+    }
+
+        ul.nav li img {
+            vertical-align: top;
+        }
+
+        ul.nav li .title {
+            height: 29px;
+            line-height: 29px;
+            text-align: center;
+            color: #303030;
+            overflow: hidden;
+            font-size: 14px;
+            padding: 0px 5px;
+        }
+
+        ul.nav li a {
+            width: 100%;
+            height: 93px;
+            display: block;
+            color: #FFF;
+        }

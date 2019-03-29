@@ -1,0 +1,60 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DAL
+{
+    public class DAL_labCourse
+    {
+        DAL_common c = new DAL_common();
+        SqlDB sql = new SqlDB();
+        string str = "";
+        public bool insert(LabCourse l)
+        {
+            return c.insert(l);
+        }
+        public string num()
+        {
+            str = "select top 1 id from LabCourse order by id desc";
+            return sql.FillDt(str).Rows[0][0].ToString();
+        }
+        public bool function(Functions f)
+        {
+            str = "select * from Functions where no='" + f.no + "'";
+            DataTable dd = sql.FillDt(str);
+            if (dd != null)
+            {
+                if (dd.Rows.Count > 0)
+                    return sql.ExecSql("delete from Functions where no='" + f.no + "'");
+            }
+            return c.insert(f);
+        }
+        public DataTable findFunction(string num)
+        {
+            try
+            {
+                str = "select * from functions where num='" + num + "' order by [type]";
+                return sql.FillDt(str);
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+        public DataTable  findSec(string type)
+        {
+            try
+            {
+                str = "select * from functions  where type='"+type+"'";
+                return sql.FillDt(str);
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+    }
+}

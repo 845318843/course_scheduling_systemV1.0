@@ -1,0 +1,7 @@
+﻿$(function () {
+    $("div").click(function () {
+        //alert("1");
+        var page = $(this).attr("id");
+        $("#mainDiv").load(page);
+    });
+})

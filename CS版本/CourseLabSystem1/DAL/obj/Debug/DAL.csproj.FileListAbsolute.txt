@@ -1,0 +1,48 @@
+E:\新建文件夹 (5)\CourseLabSystem1\DAL\bin\Debug\DAL.dll
+E:\新建文件夹 (5)\CourseLabSystem1\DAL\bin\Debug\DAL.pdb
+E:\新建文件夹 (5)\CourseLabSystem1\DAL\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\新建文件夹 (5)\CourseLabSystem1\DAL\bin\Debug\Model.dll
+E:\新建文件夹 (5)\CourseLabSystem1\DAL\bin\Debug\NPOI.dll
+E:\新建文件夹 (5)\CourseLabSystem1\DAL\bin\Debug\Model.pdb
+E:\新建文件夹 (5)\CourseLabSystem1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\新建文件夹 (5)\CourseLabSystem1\DAL\obj\Debug\DAL.dll
+E:\新建文件夹 (5)\CourseLabSystem1\DAL\obj\Debug\DAL.pdb
+E:\新建文件夹 (5)\CourseLabSystem1\DAL\bin\Debug\office.dll
+E:\新建文件夹 (5)\CourseLabSystem1\DAL\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\新建文件夹 (5)\CourseLabSystem1\DAL\bin\Debug\Microsoft.Office.Interop.Word.xml
+E:\新建文件夹 (5)\CourseLabSystem1\DAL\bin\Debug\office.xml
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\DAL.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\DAL.pdb
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\Model.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\NPOI.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\stdole.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\Model.pdb
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\DAL\obj\Debug\DAL.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\DAL\obj\Debug\DAL.pdb
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\DAL\bin\Debug\DAL.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\DAL\bin\Debug\DAL.pdb
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\DAL\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\DAL\bin\Debug\Model.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\DAL\bin\Debug\NPOI.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\DAL\bin\Debug\office.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\DAL\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\DAL\bin\Debug\Model.pdb
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\DAL\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\DAL\bin\Debug\office.xml
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\DAL\obj\Debug\DAL.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\DAL\obj\Debug\DAL.pdb
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\DAL.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\DAL.pdb
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\Model.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\NPOI.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\office.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\Model.pdb
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\DAL\bin\Debug\office.xml
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\DAL\obj\Debug\DAL.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\DAL\obj\Debug\DAL.pdb

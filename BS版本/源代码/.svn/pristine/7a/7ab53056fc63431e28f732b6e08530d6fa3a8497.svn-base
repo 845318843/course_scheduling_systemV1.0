@@ -1,0 +1,350 @@
+﻿@charset "utf-8";
+
+/*body {
+    background: url("images/66.jpg");
+    width: 100%;
+    height: 100%;
+}*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.maindivhrheader {
+    display: none;
+}
+
+.mytitle {
+    margin-bottom: 10px;
+}
+
+    .mytitle:before {
+        content: "·";
+    }
+
+.maindivhr {
+    display: none;
+}
+
+input, select {
+    line-height: 30px;
+    border: 1px solid #dfdfdf;
+    background: #fefefe;
+    height: 30px;
+}
+
+    input[type="text"] {
+        padding: 0px 10px;
+    }
+
+    input[type="button"], input[type="submit"] {
+        padding: 0px 18px;
+        background: #ffc600;
+        border: 1px solid #ff9c00;
+        color: #FFF;
+        font-weight: bold;
+    }
+
+body {
+    font-weight: normal;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    font-family: Microsoft YaHei,Lucida Grande,"微软雅黑";
+    font-size: 12px;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+a, a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-image: none;
+    list-style-type: none;
+}
+
+img {
+    border: 0px none #FFFFFF;
+}
+
+table {
+    margin: 0px;
+    padding: 0px;
+    border: 0px currentColor;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body .maindiv table {
+    width: 96%;
+    margin: auto;
+    text-align: left;
+    border: 1px solid #fff;
+    margin: 10px auto;
+}
+
+    body .maindiv table td {
+        border-bottom: 1px dashed #fff;
+        padding: 8px 10px;
+        font-size: 16px;
+    }
+
+#AspNetPager1 {
+    border: none;
+}
+
+    #AspNetPager1 td {
+        border-bottom: none;
+    }
+
+    #AspNetPager1 .paginator a, #AspNetPager1 .paginator span {
+        margin-top: 6px;
+    }
+
+.bgf1f1f1 th {
+    background: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    color: #000;
+    padding: 0px 10px;
+}
+
+.l {
+    float: left;
+}
+
+.park {
+    clear: both;
+    line-height: 0px;
+}
+
+.db {
+    display: block;
+}
+
+.cl {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.m_l {
+    display: inline;
+}
+
+.tingico {
+    background-image: url(/images/tingicos.png);
+    background-repeat: no-repeat;
+}
+
+.head_bg {
+    background-color: #000000;
+    z-index: 20;
+    padding: 0px;
+    margin: 0px;
+}
+
+.top_h {
+    line-height: 45px;
+}
+
+    .top_h a {
+        color: #c1c1c1;
+    }
+
+.nov ul li {
+    float: left;
+    margin-left: 2px;
+}
+
+    .nov ul li a {
+        height: 45px;
+        display: block;
+    }
+
+        .nov ul li a:hover {
+            color: #ffffff;
+        }
+
+.nov ul .handle_b a {
+    width: 112px;
+}
+
+    .nov ul .handle_b a:hover {
+        color: #000000;
+        background-color: #000000;
+        background-image: url(/images/hover5_bg.jpg);
+        background-repeat: no-repeat;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        line-height: 45px;
+    }
+
+.classmenu {
+    float: right;
+    margin-right: 10px;
+    width: 150px;
+    color: White;
+}
+
+#nav {
+    line-height: 24px;
+    list-style-type: none;
+    background: #FFFFFF;
+}
+
+    #nav a {
+        display: block;
+        padding: 0px 10px;
+        width: auto;
+        text-align: center;
+        color: #FFFFFF;
+        line-height: 45px;
+        font-size: 16px;
+        font-family: Microsoft YaHei;
+    }
+
+    #nav li {
+        float: left;
+    }
+
+        #nav li ul {
+            line-height: 27px;
+            list-style-type: none;
+            text-align: left;
+            width: 180px;
+            position: absolute;
+            display: none;
+        }
+
+            #nav li ul li {
+                float: left;
+                width: 180px;
+                background: #000000;
+            }
+
+            #nav li ul a {
+                display: block;
+                width: 156px;
+                text-align: left;
+                padding-left: 24px;
+            }
+
+/*body {
+    margin: 0px auto;
+    width: 100%;
+    min-height: 700px;
+    border: 0;
+    background: url(/images/bj3.jpg) no-repeat center;
+    background-size: 100% 100%;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+}*/
+/*body{
+		background:url(/images/bj3.jpg) top left;
+		background-size:100% 100%;
+		overflow:hidden;
+	}*/
+
+.maindiv .maindivhr {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.maindiv #divbottom {
+    margin-bottom: 10px;
+}
+
+.maindiv .maindivhrheader {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.maindiv table {
+    width: 100%;
+}
+
+.maindiv .mytitle {
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#mytitleul li {
+    float: left;
+    padding: 0 10px;
+    margin-left: 5px;
+    background-color: #ffc600;
+}
+
+div.fuyun20160425 ul#nav li a {
+    line-height: 30px;
+    color: #fff;
+}
+
+#tbheader {
+    border: 0;
+    border-color: #000000;
+    border-collapse: collapse;
+    width: 99%;
+    margin: 0.5%;
+    padding: 8px;
+    text-align: center;
+    word-spacing: normal;
+    font-size: 13px;
+}
+
+    #tbheader tr {
+        width: 35px;
+    }
+
+table.fuyuntable1322 {
+    background: #fff;
+}
+
+.IndexCaiDan {
+    float: left;
+    background: #fff;
+    margin: 0px 6px;
+    padding: 10px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+    .IndexCaiDan a {
+        display: block;
+        border-bottom: 1px dashed #dfdfdf;
+        line-height: 40px;
+    }
+
+    .IndexCaiDan img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .IndexCaiDan a.InGcdTitle {
+        background: #fe8900;
+        color: #fff;
+        font-weight: bold;
+        padding: 0px 4px;
+        border-bottom: none;
+        text-align: center;
+        width: 150px;
+    }

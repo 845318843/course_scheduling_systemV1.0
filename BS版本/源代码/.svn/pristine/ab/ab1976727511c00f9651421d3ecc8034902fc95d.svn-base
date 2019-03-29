@@ -1,0 +1,73 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="labUpdate.aspx.cs" Inherits="LabCourseSys.labUpdate" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <script src="Js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="Js/fuyun001.js" type="text/javascript"></script>
+    <script src="Js/lab.js" type="text/javascript"></script>
+    <link href="Css/pageheader.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <style type="text/css">
+        body {
+            background: url("images/66.jpg");
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            var id = sessionStorage["labID"];
+            getone(id);
+            $("#chg").click(function () {
+                var name = $("#name").val();
+                var count = $("#count").val();
+                var des = $("#des").val();
+                update(id, name, count, des);
+            })
+            $("#del").click(function () {
+                del(id);
+            })
+        })
+    </script>
+</head>
+<body>
+    <form method="post" runat="server" id="form1">
+        <div class="maindiv">
+            <div class="maindivhrheader">&nbsp;</div>
+            <table class="createtb">
+                <tr>
+                    <td>实验室名称
+                    </td>
+                    <td>
+                        <input name="txtname" type="text" runat="server" id="name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>可容纳人数
+                    </td>
+                    <td>
+                        <input name="txtprice" type="text" runat="server" id="count" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>简介
+                    </td>
+                    <td>
+                        <textarea runat="server" name="txtdesc" rows="2" cols="20" id="des" style="height: 110px; width: 250px">
+</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input value="修改" id="chg" type="button" />
+                        <input value="删除" id="del" type="button" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

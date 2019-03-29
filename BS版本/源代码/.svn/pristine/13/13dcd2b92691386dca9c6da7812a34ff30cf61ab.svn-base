@@ -1,0 +1,160 @@
+﻿$(function () {
+    loadAllC();
+    $("#add").click(function () {
+        layer.open({
+            type: 2,
+            title: '添加',
+            shadeClose: true,
+            shade: 0.5,
+            area: ['450px', '65%'],
+            content: '../../labAdd.aspx',
+            end: function () {
+                $("#mainDiv").load("lab.aspx");
+            }
+        });
+    });
+})
+function edit(id) {
+    sessionStorage["labID"] = id;
+    layer.open({
+        type: 2,
+        title: '编辑',
+        shadeClose: true,
+        shade: 0.5,
+        area: ['450px', '65%'],
+        content: '../../labUpdate.aspx',
+        end: function () {
+            $("#mainDiv").load("../../lab.aspx");
+        }
+    });
+}
+function getone(id) {
+    $.ajax(
+    {
+        type: "post",
+        url: "../../webService/labInfoService.asmx/getone",
+        data: '{"id":"' + id + '"}',
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        async: false,
+        success: function (result) {
+            var res = eval(result.d);
+            $.each(res, function (i, d) {
+                $("#name").val(d.name);
+                $("#count").val(d.count);
+                $("#des").val(d.describe);
+            });
+        },
+        error: function (err) {
+
+        }
+    }
+    );
+}
+function state(id) {
+    $.ajax(
+    {
+        type: "post",
+        url: "../../webService/labInfoService.asmx/state",
+        data: '{"id":"' + id + '"}',
+        contentType: "application/json; charset=utf-8",
+        dataType: "text",
+        async: false,
+        success: function (result) {
+            $("#mainDiv").load("../../lab.aspx");
+        },
+        error: function (err) {
+
+        }
+    }
+    );
+}
+
+function loadAllC() {
+    var htmltxt = "";
+    $.ajax({
+        type: "post",
+        contentType: "application/json",
+        url: "../../webService/labInfoService.asmx/findAll",
+        dataType: "json",
+        async: false,
+        success: function (result) {
+            var res = eval(result.d);
+            var state;
+            var flag;
+            htmltxt = " <div class=\"span12\" style='padding:8px'><table class=\"table table-condensed table-bordered table-hover tab\">  <thead><tr ><th>序号</th><th>实验室名称</th><th>可容纳人数</th><th>简介</th><th>状态</th><th>操作</th></tr> </thead><tbody id=\"tbody\">";
+            $.each(res, function (i, d) {
+                var n = i;
+                var no = n + 1;
+                if (d.备注1 == "1") {
+                    state = "启用";
+                    flag = "关闭";
+                }
+                else {
+                    state = "关闭";
+                    flag = "启用";
+                }
+                htmltxt += " <tr><td>" + no + "</td><td>" + d.名称 + "</td><td>" + d.容纳人数 + "</td><td>" + d.简介 + "</td> <td>" + state + "</td><td> <span onclick='edit(" + d.主键 + ");'>编辑</span><span style=''><input type='button' class=\"btn btn-success\"  value='" + flag + "' onclick='state(" + d.主键 + ");' /></span></td></tr>";
+            });
+            htmltxt += "</tbody></table></div>";
+            $("#contents").html(htmltxt);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            alert(jqXHR + textStatus + errorThrown);
+        }
+    });
+}
+function insert(name, count, des) {
+    $.ajax(
+     {
+         type: "post",
+         url: "../../webService/labInfoService.asmx/insert",
+         data: '{"name":"' + name + '","count":"' + count + '","des":"' + des + '"}',
+         contentType: "application/json; charset=utf-8",
+         dataType: "text",
+         async: false,
+         success: function (result) {
+             alert("操作成功！");
+         },
+         error: function (err) {
+
+         }
+     }
+     );
+}
+function update(id, name, count, des) {
+    $.ajax(
+     {
+         type: "post",
+         url: "../../webService/labInfoService.asmx/update",
+         data: '{"id":"' + id + '","name":"' + name + '","count":"' + count + '","des":"' + des + '"}',
+         contentType: "application/json; charset=utf-8",
+         dataType: "text",
+         async: false,
+         success: function (result) {
+             alert("操作成功！");
+         },
+         error: function (err) {
+
+         }
+     }
+     );
+}
+function del(id) {
+    $.ajax(
+     {
+         type: "post",
+         url: "../../webService/labInfoService.asmx/delete",
+         data: '{"id":"' + id + '"}',
+         contentType: "application/json; charset=utf-8",
+         dataType: "text",
+         async: false,
+         success: function (result) {
+             alert("操作成功！");
+         },
+         error: function (err) {
+
+         }
+     }
+     );
+}

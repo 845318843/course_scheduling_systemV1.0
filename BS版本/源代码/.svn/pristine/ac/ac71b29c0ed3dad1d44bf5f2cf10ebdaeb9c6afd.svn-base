@@ -1,0 +1,55 @@
+﻿using Common;
+using DAL;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BLL
+{
+   public class BLL_users
+    {
+       DAL_users du = new DAL_users();
+       public DataTable findAll()
+       {
+           return du.findAll();
+       }
+
+       public string delete(string id)
+       {
+           du.delete(id);
+           return "";
+       }
+
+       public string insert(Users u)
+       {
+           du.insert(u);
+           return "";
+       }
+
+       public string updata(Users u)
+       {
+           du.update(u);
+           return "";
+       }
+
+       public string judge(string str1,string str2)
+       {
+           if (du.judgeName(str1) == false)
+               return "用户名不存在";
+           else
+           {
+               if (du.judgeIs(str1, str2) == false)
+                   return "用户名与密码不匹配";
+               else
+                   return "登录";
+           }
+       }
+       public string getOne(string id)
+       {
+           return JsonCast.DataTableToJSON(du.getOne(id), false).ToString();
+       }
+    }
+}

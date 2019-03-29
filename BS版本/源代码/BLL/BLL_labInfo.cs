@@ -1,0 +1,52 @@
+﻿using BLL;
+using DAL;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BLL
+{
+    public class BLL_labInfo
+    {
+        DAL_labInfo l = new DAL_labInfo();
+        public bool ReLabNo(string no)
+        {
+            return l.ReLabNo(no);
+        }
+        public string findIdByName(string no)
+        {
+            return l.findIdByName(no);
+        }
+        public DataTable findAll()
+        {
+            return l.findAll();
+        }
+        public string delete(string id)
+        {
+            l.delete(id);
+            return "";
+        }
+        public string update(LabInfo ll)
+        {
+            l.update(ll);
+            return "";
+        }
+        public string insert(LabInfo ll)
+        {
+            l.insert(ll);
+            return "";
+        }
+        public string getOne(string id)
+        {
+            return JsonCast.DataTableToJSON(l.getOne(id), false).ToString();
+        }
+        public string state(string id)
+        {
+            l.state(id);
+            return "";
+        }
+    }
+}

@@ -1,0 +1,4 @@
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\DAL\bin\Release\DAL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\DAL\bin\Release\DAL.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\DAL\obj\Release\DAL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\DAL\obj\Release\DAL.pdb

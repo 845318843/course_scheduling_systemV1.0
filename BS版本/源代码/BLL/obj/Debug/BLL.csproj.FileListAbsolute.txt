@@ -1,0 +1,96 @@
+C:\Users\ChenGang\Desktop\LabCourseSys\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\ChenGang\Desktop\LabCourseSys\BLL\bin\Debug\BLL.dll
+C:\Users\ChenGang\Desktop\LabCourseSys\BLL\bin\Debug\BLL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSys\BLL\bin\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSys\BLL\bin\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSys\BLL\obj\Debug\BLL.dll
+C:\Users\ChenGang\Desktop\LabCourseSys\BLL\obj\Debug\BLL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem\BLL\bin\Debug\BLL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem\BLL\bin\Debug\BLL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem\BLL\bin\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem\BLL\bin\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\ChenGang\Desktop\LabCourseSystem\BLL\obj\Debug\BLL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem\BLL\obj\Debug\BLL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\BLL\bin\Debug\BLL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\BLL\bin\Debug\BLL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\BLL\bin\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\BLL\bin\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\BLL\obj\Debug\BLL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\BLL\obj\Debug\BLL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\BLL\bin\Debug\office.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\BLL\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\BLL\bin\Debug\office.xml
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\BLL\bin\Debug\BLL.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\BLL\bin\Debug\BLL.pdb
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\BLL\bin\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\BLL\bin\Debug\office.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\BLL\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\BLL\bin\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\BLL\bin\Debug\office.xml
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\BLL\obj\Debug\BLL.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\BLL\obj\Debug\BLL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\BLL\bin\Debug\BLL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\BLL\bin\Debug\BLL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\BLL\bin\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\BLL\bin\Debug\office.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\BLL\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\BLL\bin\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\BLL\bin\Debug\office.xml
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\BLL\obj\Debug\BLL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\BLL\obj\Debug\BLL.pdb
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\BLL\bin\Debug\BLL.dll
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\BLL\bin\Debug\BLL.pdb
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\BLL\bin\Debug\DAL.dll
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\BLL\bin\Debug\DAL.pdb
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\BLL\obj\Debug\BLL.dll
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\BLL\obj\Debug\BLL.pdb
+I:\Users\CG\Desktop\LabCourseSystem1121\BLL\bin\Debug\BLL.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\BLL\bin\Debug\BLL.pdb
+I:\Users\CG\Desktop\LabCourseSystem1121\BLL\bin\Debug\DAL.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\BLL\bin\Debug\office.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\BLL\bin\Debug\Microsoft.Vbe.Interop.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\BLL\bin\Debug\DAL.pdb
+I:\Users\CG\Desktop\LabCourseSystem1121\BLL\bin\Debug\office.xml
+I:\Users\CG\Desktop\LabCourseSystem1121\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+I:\Users\CG\Desktop\LabCourseSystem1121\BLL\obj\Debug\BLL.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\BLL\obj\Debug\BLL.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\bin\Debug\BLL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\bin\Debug\BLL.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\bin\Debug\DAL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\bin\Debug\DAL.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\obj\Debug\BLL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\obj\Debug\BLL.pdb
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\BLL\bin\Debug\BLL.dll
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\BLL\bin\Debug\BLL.pdb
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\BLL\bin\Debug\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\BLL\bin\Debug\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\BLL\obj\Debug\BLL.dll
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\BLL\obj\Debug\BLL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\BLL\bin\Debug\BLL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\BLL\bin\Debug\BLL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\BLL\bin\Debug\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\BLL\bin\Debug\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\BLL\obj\Debug\BLL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\BLL\obj\Debug\BLL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\BLL\bin\Debug\BLL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\BLL\bin\Debug\BLL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\BLL\bin\Debug\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\BLL\bin\Debug\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\BLL\obj\Debug\BLL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\BLL\obj\Debug\BLL.pdb
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\BLL\bin\Debug\BLL.dll
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\BLL\bin\Debug\BLL.pdb
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\BLL\bin\Debug\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\BLL\bin\Debug\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\BLL\obj\Debug\BLL.dll
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\BLL\obj\Debug\BLL.pdb

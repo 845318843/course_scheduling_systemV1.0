@@ -1,0 +1,53 @@
+C:\Users\ChenGang\Desktop\LabCourseSys\DAL\bin\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSys\DAL\bin\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSys\DAL\obj\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSys\DAL\obj\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSys\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\ChenGang\Desktop\LabCourseSystem\DAL\bin\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem\DAL\bin\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem\DAL\obj\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem\DAL\obj\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\DAL\bin\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\DAL\bin\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\DAL\obj\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\DAL\obj\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\DAL\bin\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\DAL\bin\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\DAL\obj\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\DAL\obj\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\DAL\bin\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\DAL\bin\Debug\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\DAL\obj\Debug\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\DAL\obj\Debug\DAL.pdb
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\DAL\bin\Debug\DAL.dll
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\DAL\bin\Debug\DAL.pdb
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\DAL\obj\Debug\DAL.dll
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\DAL\obj\Debug\DAL.pdb
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+I:\Users\CG\Desktop\LabCourseSystem1121\DAL\bin\Debug\DAL.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\DAL\bin\Debug\DAL.pdb
+I:\Users\CG\Desktop\LabCourseSystem1121\DAL\obj\Debug\DAL.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\DAL\obj\Debug\DAL.pdb
+I:\Users\CG\Desktop\LabCourseSystem1121\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\DAL\bin\Debug\DAL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\DAL\bin\Debug\DAL.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\DAL\obj\Debug\DAL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\DAL\obj\Debug\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\DAL\bin\Debug\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\DAL\bin\Debug\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\DAL\obj\Debug\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\DAL\obj\Debug\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\DAL\bin\Debug\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\DAL\bin\Debug\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\DAL\obj\Debug\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\DAL\obj\Debug\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\DAL\bin\Debug\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\DAL\bin\Debug\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\DAL\obj\Debug\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\DAL\obj\Debug\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\DAL\bin\Debug\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\DAL\bin\Debug\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\DAL\obj\Debug\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\DAL\obj\Debug\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache

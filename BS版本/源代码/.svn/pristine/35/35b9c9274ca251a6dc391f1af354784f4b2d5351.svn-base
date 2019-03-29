@@ -1,0 +1,186 @@
+﻿var ad = "";
+var sec = "";
+var week = "";
+var courseid = "";
+$(function () {
+    var id = sessionStorage["labID"];
+    //getone(id);
+    $("#section").click(function () {
+        ad = sessionStorage["courseID"];
+        if (ad != null) {
+            layer.open({
+                type: 2,
+                title: '节次选择',
+                shadeClose: true,
+                shade: 0.5,
+                area: ['450px', '55%'],
+                content: 'section.aspx',
+                end: function () {
+                    sessionStorage["sec"] = "1";
+                    //$("#mainDiv").load("lab.aspx");
+                }
+            });
+        }
+        else
+            alert("请先添加课程基本信息！");
+    });
+    $("#week").click(function () {
+        sec = sessionStorage["sec"];
+        if (sec == "1") {
+            layer.open({
+                type: 2,
+                title: '周次选择',
+                shadeClose: true,
+                shade: 0.5,
+                area: ['450px', '55%'],
+                content: 'weeks.aspx',
+                end: function () {
+                    loadMain();
+                }
+            });
+        }
+        else
+            alert("请先选择节次！");
+    });
+    $("#adds").click(function () {
+        var course = $("#course").val();
+        var classs = $("#classs").val();
+        var tea = $("#teacher").val();
+        var count = parseInt($("#count").val());
+        var n=parseInt(sessionStorage["num"]);
+        var num = $("#num").val();
+        var labNo = sessionStorage["labID"];
+        var lab = sessionStorage["lab"];
+        if (count > n)
+            alert("超过实验室可容纳人数上限！");
+        else if (course == ''||classs==''||tea=='')
+            alert("有必填项为空,请重新核对！")
+        else
+        add(course, classs, tea, count, num, lab,labNo);
+
+    })
+})
+function fresh() {
+    $.ajax(
+   {
+       type: "post",
+       url: "webService/labCourseService.asmx/fresh",
+       contentType: "application/json; charset=utf-8",
+       dataType: "json",
+       async: false,
+       success: function (result) {
+
+       },
+       error: function (err) {
+
+       }
+   }
+   );
+}
+function updates(week, day, section, id) {
+    var cour = sessionStorage["courseID"];
+    var name = $("#name" + id + "").val();
+    var Is = "0";
+    if ($("#ck" + id + "").is(':checked')) {
+        Is = "1";
+    }
+    $.ajax(
+{
+    type: "post",
+    url: "../../webService/labCourseService.asmx/insertDetail",
+    data: '{"project":"' + name + '","Is":"' + Is + '","week":"' + week + '","day":"' + day + '","section":"' + section + '","courseID":"' + cour + '"}',
+    contentType: "application/json; charset=utf-8",
+    dataType: "json",
+    async: false,
+    success: function (result) {
+        alert("操作成功！");
+    },
+    error: function (err) {
+
+    }
+});
+
+}
+function loadMain() {
+    var num = sessionStorage["courseID"];
+    $.ajax(
+      {
+          type: "post",
+          url: "webService/labCourseService.asmx/findFunction",
+          data: '{"num":"' + num + '"}',
+          contentType: "application/json; charset=utf-8",
+          dataType: "json",
+          async: false,
+          success: function (result) {
+              var res = eval(result.d);
+              htmltxt = "<table><thead><tr><th>项目名称</th> <th>是否是综合性，设计性项目</th><th>周次</th><th>星期</th><th>节次</th><th>操作</th></tr></thead>";
+              $.each(res, function (i, d) {
+                  var s = d.id;
+           
+                  htmltxt += "<tr><td><input type='text' id='name" + s+ "' /></td>";
+                  htmltxt += "<td>是否<input type='checkbox'  id='ck" + s+ "' /></td>";
+                  htmltxt += "<td>" + d.周次 + "</td>";
+                  htmltxt += "<td> " + d.星期 + "</td>";
+                  htmltxt += "<td> " + d.节次 + "</td>";
+                  htmltxt += "<td><input type='button'id='btt"+s+"'  value='添加' onclick='updates(\"" + d.周次 + "\",\"" + d.星期 + "\",\"" + d.节次 + "\"," + s + ");'  />";
+                  htmltxt += "</td></tr>";
+              });
+              htmltxt += "</table>";
+              $("#contents").html(htmltxt);
+          },
+          error: function (err) {
+
+          }
+      }
+      );
+}
+function add(course, classs, teacher, count, num, lab,labNo) {
+    $.ajax(
+  {
+      type: "post",
+      url: "../../webService/labCourseService.asmx/insert",
+      data: '{"course":"' + course + '","classs":"' + classs + '","teacher":"' + teacher + '","count":"' + count + '","num":"' + num + '","lab":"' + lab + '","labNo":"' + labNo + '"}',
+      contentType: "application/json; charset=utf-8",
+      dataType: "json",
+      async: false,
+      success: function (result) {
+          var res = eval(result.d);
+          courseid = res;
+          sessionStorage["courseID"] = res;
+          fresh();
+          alert("操作成功！");
+      },
+      error: function (err) {
+
+      }
+  });
+}
+function getone(id) {
+    $.ajax(
+    {
+        type: "post",
+        url: "../../webService/labInfoService.asmx/getone",
+        data: '{"id":"' + id + '"}',
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        async: false,
+        success: function (result) {
+            var res = eval(result.d);
+            $.each(res, function (i, d) {
+                html += "<div class=\"mytitle\">" + d.name + "</div><div class=\"maindivhrheader\">&nbsp;</div> <table class=\"fuyuntable1322\">";
+                html += " <tr><td>实验室名称：</td><td>" + d.name + "</td></tr><tr>";
+                html += "<td>可容纳人数：</td><td>" + d.count + "</td> </tr> <tr> <td>流量计数量1：</td><td>" + d.count1 + "</td></tr>";
+                html += "<tr><td>简介：</td><td>" + d.count2 + "</td></tr>";
+                html += "<tr><td>流量计数量3：</td><td>" + d.count3 + "</td></tr> <tr><td>液态压力：</td><td>" + d.waterpress + "</td></tr>";
+                html += "<tr><td>气态压力：</td><td>" + d.gaspress + "</td></tr><tr><td>出口温度：</td><td>" + d.exporttmp + "</td></tr><tr><td>存液量：</td><td>" + d.water + "</td></tr>";
+                html += "<tr><td>预计持续供气时间：</td><td>" + d.offertime + "</td></tr><tr><td>小时流量：</td><td>" + d.perloss + "</td></tr><tr><td>填报人：</td><td>" + d.applypsn + "</td><tr><td>现场描述：</td><td>" + d.sitedescribe + "</td></tr><tr><td>附件：</td><td><a href='" + d.fileurl + "' target=\"_blank\">" + d.filename + "</a></td></tr><tr><td colspan=\"2\">";
+                html += "<input type=\"button\" name=\"btndelete\" value=\"删除\" id=\"btn\" />";
+                html += " <input type=\"button\" value=\"返回列表\" id='returns' />";
+            });
+        },
+        error: function (err) {
+
+        }
+    }
+    );
+}

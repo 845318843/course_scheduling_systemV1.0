@@ -1,0 +1,50 @@
+﻿var co, classs, tea, lab;
+$(function () {
+    $("#find").click(function () {
+        co = $("#course").val();
+        classs = $("#class").val();
+        tea = $("#tea").val();
+        lab = $("#lab").val();
+        loadAllC(co,classs,tea,lab);
+    })
+
+})
+function loadAllC(courseName,classs,tea,lab) {
+    var htmltxt = "";
+    $.ajax({
+        type: "post",
+        contentType: "application/json",
+        url: "../../webService/recordsService.asmx/findBy",
+        data: '{"courseName":"' + courseName + '","classs":"' + classs + '","tea":"' + tea + '","lab":"' + lab + '"}',
+        dataType: "json",
+        async: false,
+        success: function (result) {
+            var res = eval(result.d);
+            htmltxt = "<div class=\"span12\" style='padding:8px'><table class=\"table table-condensed table-bordered table-hover tab\">  <thead> <tr><th>序号</th><th>课程</th><th>班级</th><th>教师</th><th>项目名称</th><th>是否综合性</th><th>周次</th><th>星期</th><th>节次</th><th>人数</th><th>组别</th><th>实验室</th><th>操作</th></tr> </thead><tbody id=\"tbody\">";
+            $.each(res, function (i, d) {
+                var n = i;
+                var no = n + 1;
+                htmltxt += " <tr><td>" + no + "</td><td>" + d.课程 + "</td><td>" + d.班级 + "</td><td>" + d.教师 + "</td><td>" + d.项目名称 + "</td><td>" + d.是否综合性 + "</td><td>" + d.周次 + "</td><td>" + d.星期 + "</td><td>" + d.节次 + "</td><td>" + d.人数 + "</td><td>" + d.组别 + "</td><td>" + d.实验室 + "</td><td> <span style=''><input type='button' class=\"btn btn-success\"  value='编辑' onclick='plan(" + d.detailid + ");' /></span></td></tr>";
+            });
+            htmltxt += "</tbody></table></div>";
+            $("#contents").html(htmltxt);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+
+        }
+    });
+}
+function plan(detailid) {
+    sessionStorage["detail"] = detailid;
+    layer.open({
+        type: 2,
+        title: '编辑',
+        shadeClose: true,
+        shade: 0.5,
+        area: ['300px', '45%'],
+        content: '../../chgDetail.aspx',
+        end: function () {
+            loadAllC(co, classs, tea, lab);
+        }
+    });
+}

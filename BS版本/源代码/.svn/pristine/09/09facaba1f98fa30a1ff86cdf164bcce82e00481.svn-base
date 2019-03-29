@@ -1,0 +1,127 @@
+﻿$(function () {
+    load();
+    //ReWritable()
+})
+var labName = "";
+var labNo = "";
+function f()
+{
+    alert("2");
+}
+function load() {
+    labName = sessionStorage["lab"];
+    labNo = sessionStorage["labID"];
+    var h = "",t="";
+    $.ajax(
+  {
+      type: "post",
+      url: "webService/labCourseService.asmx/createCourse",
+      data: '{"labNo":"' + labNo + '"}',
+      contentType: "application/json; charset=utf-8",
+      dataType: "json",
+      async: false,
+      success: function (result) {
+          var res = eval(result.d);
+
+          htmltxt = "<table style='width:100%' id=tbmain><thead><tr>";
+          htmltxt += " <th></th><th>星期一</th><th>星期二</th><th>星期三</th><th>星期四</th><th>星期五</th><th>星期六</th><th>星期日</th>";
+          htmltxt += "  </tr></thead>";
+          $.each(res, function (i, d) {
+              if (i < 5) {
+                  if (i == 0)
+                      h = "1.2";
+                  else if (i == 1)
+                      h = "3.4";
+                  else if (i == 2)
+                      h = "5.6";
+                  else if (i == 3)
+                      h = "7.8";
+                  else
+                      h = "9.10";
+                  htmltxt += "<tr><td style='width:6%'>" + h + "</td>";
+                  htmltxt += "<td style='width:12%' onclick='f()'>" + d.一 + "<br></td>";
+                  htmltxt += "<td style='width:12%'>" + d.二 + "</td>";
+                  htmltxt += "<td style='width:12%'> " + d.三 + "</td>";
+                  htmltxt += "<td style='width:12%'> " + d.四 + "</td>";
+                  htmltxt += "<td style='width:12%'> " + d.五 + "</td>";
+                  htmltxt += "<td style='width:12%'> " + d.六 + "</td>";
+                  htmltxt += "<td style='width:12%' height=\"100px\"> " + d.日 + "</td>";
+                  htmltxt += "</tr>";
+              }
+              else
+                  t = d.一;
+          });
+          htmltxt += "</table>";
+          var html = "" + t + "<a href='../file/课表.xls' ><font style=\"color:blue;font-size:15px;float:right\">导出当前课表</font></a>";
+          $("#tit").html(html);
+          //alert(htmltxt);
+          $("#contents").html(htmltxt);
+      },
+      error: function (err) {
+
+      }
+  }
+  );
+}
+function ReWritable() {
+    var tbmian = document.getElementById("tbmain");
+    //循环，为每行每列添加双击事件，但是，第一行（thead）与最后一行（tfoot）不添加。 
+    for (var i = 1; i < tbmain.rows.length - 1; i++) {
+        for (var j = 0; j < tbmain.rows[i].cells.length; j++) {
+            tbmain.rows[i].cells[j].ondblclick = TdDoubleClick;
+        }
+    }
+}
+//定义td的双击事件，为其添加文本框，使用用户可以输入。 
+function TdDoubleClick() {
+    //首先判断是不是该方格已经存在文本框，如果存在，则返回，不重复添加文本框。如果不存在，则添加。 
+    var tdcag = document.getElementById("tdcag");
+    var tdid = null;
+    var txtid = null;
+    var curtd = window.event.srcElement;
+    if (tdcag != null)//已经存在，返回。 
+    {
+        return;
+    }
+    //不存在，则添加 
+    tdid = window.event.srcElement;
+    tdtxt = tdid.innerText;
+    tdtxt = Trim(tdtxt);
+    var str = "<div id='tdcag'><input type='text' onblur='ChangeTdText();' id='txtId' value='" + tdtxt + "'>";
+    str += "<input type='hidden' id='tdInitValue' value='" + tdtxt + "'>";
+    str += "</div>";
+    tdid.innerHTML = str;
+    //使文本框获得焦点。 
+    document.getElementById("txtId").focus();
+    var ctr = document.getElementById("txtId").createTextRange();
+    ctr.collapse(false);
+    ctr.select();
+}
+//去除字符串前后的空格。 
+function Trim(str) {
+    return str.replace(/(^\s*)|(\s*$)/g, "");
+}
+//定义KeyPress按下时的事件，如果是ESC键，则取消更改，恢复为更改前的值。 
+document.onkeypress = function EscKeyPress() {
+    if (event.keyCode == 27) {
+        CancelTdChanged();
+        return;
+    }
+}
+//取消更改， 
+function CancelTdChanged() {
+    var tdInitValue = document.getElementById("tdInitValue");
+    var tdtxt = tdInitValue.value;
+    var tdid = document.getElementById("tdcag").parentNode;
+    tdid.innerText = Trim(tdtxt);
+}
+//确定更改， 
+function ChangeTdText() {
+    var txtId = document.getElementById("txtId");
+    if (txtId == null) {
+        return;
+    }
+    var tdid = document.getElementById("tdcag").parentNode;
+    tdid.innerText = Trim(txtId.value);
+    return;
+}

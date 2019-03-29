@@ -1,0 +1,63 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CourseTable.aspx.cs" Inherits="LabCourseSys.CourseTable" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="Js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="Js/fuyun001.js" type="text/javascript"></script>
+    <script src="js/table.js" type="text/javascript"></script>
+    <script src="layer/layer.js" type="text/javascript"></script>
+    <%--  <link href="css/index.css" rel="stylesheet" type="text/css" />--%>
+    <style type="text/css">
+        /*td {
+            table-layout: fixed;
+            word-break: break-all;
+        }*/
+
+        table {
+           word-break:break-all;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th {
+            border: 2px solid #808080;
+        }
+
+        td {
+            border: 1px solid #808080;
+        }
+    </style>
+        <script type="text/javascript">
+            function f() {
+                alert("2");
+            }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div style="text-align:center;font-size:25px;font-stretch:inherit" id="tit">2016-2017年第1学期7303实验室课表 <a href='../file/课表.xls' ><font style="color:blue;font-size:15px;float:right">导出当前课表</font></a></div>
+            <div id="contents" style="padding:10px;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>星期一</th>
+                            <th>星期二</th>
+                            <th>星期三</th>
+                            <th>星期四</th>
+                            <th>星期五</th>
+                            <th>星期六</th>
+                            <th>星期日</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+﻿using BLL;
+using Common;
+using DAL;
+using NpoiClass;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Services;
+
+namespace LabCourseSys.webservice
+{
+    /// <summary>
+    /// recordsService 的摘要说明
+    /// </summary>
+    [WebService(Namespace = "http://tempuri.org/")]
+    [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
+    [System.ComponentModel.ToolboxItem(false)]
+    // 若要允许使用 ASP.NET AJAX 从脚本中调用此 Web 服务，请取消注释以下行。 
+    [System.Web.Script.Services.ScriptService]
+    public class recordsService : System.Web.Services.WebService
+    {
+        BLL_records r = new BLL_records();
+        [WebMethod]
+        public string HelloWorld()
+        {
+            return "Hello World";
+        }
+        npoiClass n = new npoiClass();
+        [WebMethod]
+        public string findBy(string courseName, string classs, string tea, string lab)
+        {
+            DataTable dd = r.findBy(courseName, classs, tea, lab);
+            string url = Server.MapPath("~//file//排课记录.xls");
+            n.ExportToExcel(dd, "排课记录", url);
+            return JsonCast.DataTableToJSON(dd, false).ToString();
+        }
+        [WebMethod]
+        public string delete(string id)
+        {
+            CourseDetail c = new CourseDetail();
+            c.id = int.Parse(id);
+            r.delete(c);
+            return "";
+        }
+        [WebMethod]
+        public string update(string project, string Is, string id)
+        {
+            r.update(project, Is, id);
+            return "";
+        }
+        [WebMethod]
+        public string getone(string id)
+        {
+            return r.getone(id);
+        }
+    }
+}

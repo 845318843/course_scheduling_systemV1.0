@@ -1,0 +1,11 @@
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\bin\Release\BLL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\bin\Release\BLL.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\bin\Release\DAL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\bin\Release\NPOI.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\bin\Release\NPOI.OOXML.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\bin\Release\NPOI.OpenXml4Net.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\bin\Release\NPOI.OpenXmlFormats.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\bin\Release\DAL.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\obj\Release\BLL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\BLL\obj\Release\BLL.pdb

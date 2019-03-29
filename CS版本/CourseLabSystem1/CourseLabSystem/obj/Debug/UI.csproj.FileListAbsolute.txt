@@ -1,0 +1,222 @@
+d:\my documents\visual studio 2012\Projects\CourseLabSystem\CourseLabSystem\bin\Debug\CourseLabSystem.exe.config
+C:\Users\蒋家聪\Desktop\排课\CourseLabSystem\CourseLabSystem\bin\Debug\CourseLabSystem.exe.config
+C:\Users\蒋家聪\Desktop\排课\CourseLabSystem\CourseLabSystem\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\蒋家聪\Desktop\排课\CourseLabSystem\CourseLabSystem\obj\Debug\CourseLabSystem.Form1.resources
+C:\Users\蒋家聪\Desktop\排课\CourseLabSystem\CourseLabSystem\obj\Debug\CourseLabSystem.FrmMain.resources
+C:\Users\蒋家聪\Desktop\排课\CourseLabSystem\CourseLabSystem\obj\Debug\CourseLabSystem.Properties.Resources.resources
+C:\Users\蒋家聪\Desktop\排课\CourseLabSystem\CourseLabSystem\obj\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\123456789\Desktop\新建文件夹 (2)\CourseLabSystem\CourseLabSystem\bin\Debug\CourseLabSystem.exe.config
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\CourseLabSystem.exe.config
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\obj\Debug\CourseLabSystem.FrmAddClass.resources
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\obj\Debug\CourseLabSystem.FrmAddLesson.resources
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\obj\Debug\login.FrmLogin.resources
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\obj\Debug\CourseLabSystem.FrmRecord.resources
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\obj\Debug\CourseLabSystem.Properties.Resources.resources
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\obj\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\CourseLabSystem.exe
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\CourseLabSystem.pdb
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\BLL.dll
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\Model.dll
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\DAL.dll
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\NPOI.dll
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\BLL.pdb
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\Model.pdb
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\bin\Debug\DAL.pdb
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\obj\Debug\CourseLabSystem.exe
+C:\Users\m1192\Desktop\排课系统\CourseLabSystem\CourseLabSystem\obj\Debug\CourseLabSystem.pdb
+E:\SVN_Work\123\CourseLabSystem\CourseLabSystem\bin\Debug\CourseLabSystem.exe.config
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.exe.config
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\UI.csprojResolveAssemblyReference.cache
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmAddClass.resources
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmAddLesson.resources
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmApplysh.resources
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmCourseBuilding.resources
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmCourseBuildingAdd.resources
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLogin.resources
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmMain.resources
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmRecord.resources
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.Properties.Resources.resources
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\UI.csproj.GenerateResource.Cache
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.AddTeacher.resources
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.exe
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.pdb
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\BLL.dll
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\Model.dll
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\DAL.dll
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\NPOI.dll
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\office.dll
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\BLL.pdb
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\Model.pdb
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\DAL.pdb
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Office.Interop.Word.xml
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\bin\Debug\office.xml
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.exe
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.pdb
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingAddAdmin.resources
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingChangeAdmin.resources
+E:\新建文件夹 (5)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingChangeT.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.exe.config
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.exe
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.pdb
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.AddTeacher.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmAddClass.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmAddLesson.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmApplysh.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmCourseBuilding.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmCourseBuildingAdd.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLogin.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmMain.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmRecord.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.Properties.Resources.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingAddAdmin.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingChangeAdmin.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingChangeT.resources
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.exe
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.pdb
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\BLL.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Model.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\DAL.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\NPOI.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\office.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\stdole.dll
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\BLL.pdb
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Model.pdb
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\DAL.pdb
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Users\m1192\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\office.xml
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.exe.config
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.exe
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.pdb
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.exe
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.pdb
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\BLL.dll
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Model.dll
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\DAL.dll
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\NPOI.dll
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\office.dll
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\stdole.dll
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\BLL.pdb
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Model.pdb
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\DAL.pdb
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\office.xml
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.AddTeacher.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmAddClass.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmAddLesson.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmApplysh.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmCourseBuilding.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmCourseBuildingAdd.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLogin.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmMain.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmRecord.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.Properties.Resources.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingAddAdmin.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingChangeAdmin.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingChangeT.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLab.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSetting.resources
+C:\Users\m1192\Desktop\新建文件夹\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmRetrieve.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.exe.config
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.exe
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.pdb
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.exe
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.pdb
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\BLL.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\Model.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\DAL.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\NPOI.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\office.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\BLL.pdb
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\Model.pdb
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\DAL.pdb
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\bin\Debug\office.xml
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.AddTeacher.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmADD.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmAddClass.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmAddLesson.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmApply.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmApplysh.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmCourseBuilding.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmCourseBuildingAdd.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLab.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLabAdd.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLabDelete.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLabModify.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLogin.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmMain.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmRecord.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSetting.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.Properties.Resources.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingAddAdmin.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingChangeAdmin.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingChangeT.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmRetrieve.resources
+C:\Users\hasee\Desktop\新建文件夹 (4)\CourseLabSystem1\CourseLabSystem\obj\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.exe.config
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.exe
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.pdb
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.exe
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\CourseLabSystem.pdb
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\BLL.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Model.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\DAL.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\NPOI.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\office.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\BLL.pdb
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Model.pdb
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\DAL.pdb
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\bin\Debug\office.xml
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.AddTeacher.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmADD.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmAddClass.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmAddLesson.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmApply.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmApplysh.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmCourseBuilding.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmCourseBuildingAdd.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLab.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLabAdd.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLabDelete.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLabModify.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmLogin.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmMain.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmRecord.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSetting.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.Properties.Resources.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingAddAdmin.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingChangeAdmin.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmSettingChangeT.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\CourseLabSystem.FrmRetrieve.resources
+C:\Users\hasee\Desktop\新建文件夹\CourseLabSystem1\CourseLabSystem\obj\Debug\UI.csproj.GenerateResource.Cache

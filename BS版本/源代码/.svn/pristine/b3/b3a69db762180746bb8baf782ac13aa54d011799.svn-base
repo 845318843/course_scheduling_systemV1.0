@@ -1,0 +1,112 @@
+﻿$(function () {
+    load();
+    //ReWritable()
+
+    $("#close").click(function () {
+        close();
+    });
+})
+
+
+var labName = "";
+var labNo = "";
+var no = 0;
+function load() {
+    labName = sessionStorage["lab"];
+    labNo = sessionStorage["labID"];
+    var h = "", t = "";
+    $.ajax(
+  {
+      type: "post",
+      url: "webService/labCourseService.asmx/createCourse",
+      data: '{"labNo":"' + labNo + '"}',
+      contentType: "application/json; charset=utf-8",
+      dataType: "json",
+      async: false,
+      success: function (result) {
+          var res = eval(result.d);
+          no = 0;
+          htmltxt = "<table style='width:100%' id=tbmain><thead><tr>";
+          htmltxt += " <th></th><th>星期一</th><th>星期二</th><th>星期三</th><th>星期四</th><th>星期五</th><th>星期六</th><th>星期日</th>";
+          htmltxt += "  </tr></thead>";
+          $.each(res, function (i, d) {
+              if (i < 5) {
+                  if (i == 0)
+                      h = "1.2";
+                  else if (i == 1)
+                      h = "3.4";
+                  else if (i == 2)
+                      h = "5.6";
+                  else if (i == 3)
+                      h = "7.8";
+                  else
+                      h = "9.10";
+                  htmltxt += "<tr><td style='width:6%'>" + h + "</td>";
+                  no++;
+                  htmltxt += "<td style='width:12%' onclick='plan(" + no + ")' id='" + no + "'>" + d.一 + "<br></td>";
+                  no++;
+                  htmltxt += "<td style='width:12%' onclick='plan(" + no + ")' id='" + no + "'>" + d.二 + "</td>";
+                  no++;
+                  htmltxt += "<td style='width:12%' onclick='plan(" + no + ")' id='" + no + "'> " + d.三 + "</td>";
+                  no++;
+                  htmltxt += "<td style='width:12%' onclick='plan(" + no + ")' id='" + no + "'> " + d.四 + "</td>";
+                  no++;
+                  htmltxt += "<td style='width:12%' onclick='plan(" + no + ")' id='" + no + "'> " + d.五 + "</td>";
+                  no++;
+                  htmltxt += "<td style='width:12%' onclick='plan(" + no + ")' id='" + no + "'> " + d.六 + "</td>";
+                  no++;
+                  htmltxt += "<td style='width:12%' onclick='plan(" + no + ")' id='" + no + "' height=\"100px\"> " + d.日 + "</td>";
+                  htmltxt += "</tr>";
+              }
+              else
+                  t = d.一;
+          });
+          htmltxt += "</table>";
+          var html = "" + t + "<a href='../file/课表.xls' ><font style=\"color:blue;font-size:15px;float:right\">导出当前课表</font></a><input type=\"button\" style=\"float: right\" class=\"btn btn-success\" value=\"关闭窗体\" id=\"close\" />";
+          $("#tit").html(html);
+          //alert(htmltxt);
+          $("#contents").html(htmltxt);
+      },
+      error: function (err) {
+
+      }
+  }
+  );
+}
+function plan(no) {
+    sessionStorage["flag"] = no;
+    layer.open({
+        type: 2,
+        title: '排课',
+        shadeClose: true,
+        shade: 0.5,
+        area: ['90%', '90%'],
+        content: '../../labPlans.aspx',
+        end: function () {
+            fresh();
+            load();
+        }
+    });
+}
+function fresh() {
+    $.ajax(
+   {
+       type: "post",
+       url: "../../webService/labCourseService.asmx/fresh",
+       contentType: "application/json; charset=utf-8",
+       dataType: "json",
+       async: false,
+       success: function (result) {
+
+       },
+       error: function (err) {
+
+       }
+   }
+   );
+}
+function close() {
+    //parent.window.location.href = $('.domain_name').val() + "/Stat/QueryUserCategoryListStat.action";
+    //var index = parent.layer.getFrameIndex(window.name);
+    //parent.layer.close(index);
+}

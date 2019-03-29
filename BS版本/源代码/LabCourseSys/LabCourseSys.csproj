@@ -1,0 +1,1256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E261AC83-91E6-4C9B-ABD0-354DE7D93AC4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LabCourseSys</RootNamespace>
+    <AssemblyName>LabCourseSys</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chgDetail.aspx" />
+    <Content Include="chgPWD.aspx" />
+    <Content Include="course.aspx" />
+    <Content Include="courseDesign.aspx" />
+    <Content Include="CourseTable.aspx" />
+    <Content Include="css\AspNetPager.css" />
+    <Content Include="css\button.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\init.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\pageheader.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\supersized.css" />
+    <Content Include="day.aspx" />
+    <Content Include="images\22.jpg" />
+    <Content Include="images\33.jpg" />
+    <Content Include="images\44.jpg" />
+    <Content Include="images\66.jpg" />
+    <Content Include="images\77.jpg" />
+    <Content Include="images\88.jpg" />
+    <Content Include="images\99.png" />
+    <Content Include="images\hand.png" />
+    <Content Include="images\left-handing.png" />
+    <Content Include="images\left_hand.png" />
+    <Content Include="images\password.png" />
+    <Content Include="images\right_hand.png" />
+    <Content Include="images\right_handing.png" />
+    <Content Include="images\tou.png" />
+    <Content Include="images\username.png" />
+    <Content Include="js\ajaxfileupload.js" />
+    <Content Include="js\course.js" />
+    <Content Include="js\fuyun001.js" />
+    <Content Include="js\init.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\jquery-form.js" />
+    <Content Include="js\lab.js" />
+    <Content Include="js\login.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\plan.js" />
+    <Content Include="js\recordDemo.js" />
+    <Content Include="js\records.js" />
+    <Content Include="js\section.js" />
+    <Content Include="js\table.js" />
+    <Content Include="js\user.js" />
+    <Content Include="js\week.js" />
+    <Content Include="lab.aspx" />
+    <Content Include="labAdd.aspx" />
+    <Content Include="labPlan.aspx" />
+    <Content Include="labPlans.aspx" />
+    <Content Include="labUpdate.aspx" />
+    <Content Include="layer\extend\layer.ext.js" />
+    <Content Include="layer\layer.js" />
+    <Content Include="layer\layer.min.js" />
+    <Content Include="layer\skin\default\icon-ext.png" />
+    <Content Include="layer\skin\default\icon.png" />
+    <Content Include="layer\skin\default\icon_ext.png" />
+    <Content Include="layer\skin\default\loading-0.gif" />
+    <Content Include="layer\skin\default\loading-1.gif" />
+    <Content Include="layer\skin\default\loading-2.gif" />
+    <Content Include="layer\skin\default\textbg.png" />
+    <Content Include="layer\skin\default\xubox_ico0.png" />
+    <Content Include="layer\skin\default\xubox_loading0.gif" />
+    <Content Include="layer\skin\default\xubox_loading1.gif" />
+    <Content Include="layer\skin\default\xubox_loading2.gif" />
+    <Content Include="layer\skin\default\xubox_loading3.gif" />
+    <Content Include="layer\skin\default\xubox_title0.png" />
+    <Content Include="layer\skin\layer.css" />
+    <Content Include="layer\skin\layer.ext.css" />
+    <Content Include="load.html" />
+    <Content Include="login.html" />
+    <Content Include="main.aspx" />
+    <Content Include="mains\bootstrap2.3.2\css\bootstrap-responsive.css" />
+    <Content Include="mains\bootstrap2.3.2\css\bootstrap-responsive.min.css" />
+    <Content Include="mains\bootstrap2.3.2\css\bootstrap.css" />
+    <Content Include="mains\bootstrap2.3.2\css\bootstrap.min.css" />
+    <Content Include="mains\bootstrap2.3.2\img\glyphicons-halflings-white.png" />
+    <Content Include="mains\bootstrap2.3.2\img\glyphicons-halflings.png" />
+    <Content Include="mains\bootstrap2.3.2\js\bootstrap.js" />
+    <Content Include="mains\bootstrap2.3.2\js\bootstrap.min.js" />
+    <Content Include="mains\images\10.jpg" />
+    <Content Include="mains\images\201208010567.png" />
+    <Content Include="mains\images\2012081511505.png" />
+    <Content Include="mains\images\20130502112716785_easyicon_net_16.png" />
+    <Content Include="mains\images\20130530060437945_easyicon_net_16.png" />
+    <Content Include="mains\images\32\1.png" />
+    <Content Include="mains\images\32\10.png" />
+    <Content Include="mains\images\32\100.png" />
+    <Content Include="mains\images\32\101.png" />
+    <Content Include="mains\images\32\102.png" />
+    <Content Include="mains\images\32\103.png" />
+    <Content Include="mains\images\32\104.png" />
+    <Content Include="mains\images\32\105.png" />
+    <Content Include="mains\images\32\106.png" />
+    <Content Include="mains\images\32\107.png" />
+    <Content Include="mains\images\32\108.png" />
+    <Content Include="mains\images\32\109.png" />
+    <Content Include="mains\images\32\11.png" />
+    <Content Include="mains\images\32\110.png" />
+    <Content Include="mains\images\32\111.png" />
+    <Content Include="mains\images\32\112.png" />
+    <Content Include="mains\images\32\113.png" />
+    <Content Include="mains\images\32\114.png" />
+    <Content Include="mains\images\32\115.png" />
+    <Content Include="mains\images\32\116.png" />
+    <Content Include="mains\images\32\117.png" />
+    <Content Include="mains\images\32\118.png" />
+    <Content Include="mains\images\32\119.png" />
+    <Content Include="mains\images\32\12.png" />
+    <Content Include="mains\images\32\120.png" />
+    <Content Include="mains\images\32\121.png" />
+    <Content Include="mains\images\32\122.png" />
+    <Content Include="mains\images\32\123.png" />
+    <Content Include="mains\images\32\124.png" />
+    <Content Include="mains\images\32\125.png" />
+    <Content Include="mains\images\32\126.png" />
+    <Content Include="mains\images\32\127.png" />
+    <Content Include="mains\images\32\128.png" />
+    <Content Include="mains\images\32\129.png" />
+    <Content Include="mains\images\32\13.png" />
+    <Content Include="mains\images\32\130.png" />
+    <Content Include="mains\images\32\131.png" />
+    <Content Include="mains\images\32\132.png" />
+    <Content Include="mains\images\32\133.png" />
+    <Content Include="mains\images\32\134.png" />
+    <Content Include="mains\images\32\135.png" />
+    <Content Include="mains\images\32\136.png" />
+    <Content Include="mains\images\32\137.png" />
+    <Content Include="mains\images\32\138.png" />
+    <Content Include="mains\images\32\139.png" />
+    <Content Include="mains\images\32\14.png" />
+    <Content Include="mains\images\32\140.png" />
+    <Content Include="mains\images\32\141.png" />
+    <Content Include="mains\images\32\142.png" />
+    <Content Include="mains\images\32\143.png" />
+    <Content Include="mains\images\32\144.png" />
+    <Content Include="mains\images\32\145.png" />
+    <Content Include="mains\images\32\146.png" />
+    <Content Include="mains\images\32\147.png" />
+    <Content Include="mains\images\32\148.png" />
+    <Content Include="mains\images\32\149.png" />
+    <Content Include="mains\images\32\15.png" />
+    <Content Include="mains\images\32\150.png" />
+    <Content Include="mains\images\32\151.png" />
+    <Content Include="mains\images\32\152.png" />
+    <Content Include="mains\images\32\153.png" />
+    <Content Include="mains\images\32\154.png" />
+    <Content Include="mains\images\32\155.png" />
+    <Content Include="mains\images\32\156.png" />
+    <Content Include="mains\images\32\157.png" />
+    <Content Include="mains\images\32\158.png" />
+    <Content Include="mains\images\32\159.png" />
+    <Content Include="mains\images\32\16.png" />
+    <Content Include="mains\images\32\160.png" />
+    <Content Include="mains\images\32\161.png" />
+    <Content Include="mains\images\32\162.png" />
+    <Content Include="mains\images\32\163.png" />
+    <Content Include="mains\images\32\164.png" />
+    <Content Include="mains\images\32\165.png" />
+    <Content Include="mains\images\32\166.png" />
+    <Content Include="mains\images\32\167.png" />
+    <Content Include="mains\images\32\168.png" />
+    <Content Include="mains\images\32\169.png" />
+    <Content Include="mains\images\32\17.png" />
+    <Content Include="mains\images\32\170.png" />
+    <Content Include="mains\images\32\171.png" />
+    <Content Include="mains\images\32\172.png" />
+    <Content Include="mains\images\32\173.png" />
+    <Content Include="mains\images\32\174.png" />
+    <Content Include="mains\images\32\176.png" />
+    <Content Include="mains\images\32\177.png" />
+    <Content Include="mains\images\32\178.png" />
+    <Content Include="mains\images\32\179.png" />
+    <Content Include="mains\images\32\18.png" />
+    <Content Include="mains\images\32\180.png" />
+    <Content Include="mains\images\32\181.png" />
+    <Content Include="mains\images\32\182.png" />
+    <Content Include="mains\images\32\183.png" />
+    <Content Include="mains\images\32\184.png" />
+    <Content Include="mains\images\32\185.png" />
+    <Content Include="mains\images\32\186.png" />
+    <Content Include="mains\images\32\187.png" />
+    <Content Include="mains\images\32\188.png" />
+    <Content Include="mains\images\32\189.png" />
+    <Content Include="mains\images\32\19.png" />
+    <Content Include="mains\images\32\190.png" />
+    <Content Include="mains\images\32\191.png" />
+    <Content Include="mains\images\32\192.png" />
+    <Content Include="mains\images\32\193.png" />
+    <Content Include="mains\images\32\194.png" />
+    <Content Include="mains\images\32\195.png" />
+    <Content Include="mains\images\32\196.png" />
+    <Content Include="mains\images\32\197.png" />
+    <Content Include="mains\images\32\198.png" />
+    <Content Include="mains\images\32\199.png" />
+    <Content Include="mains\images\32\2.png" />
+    <Content Include="mains\images\32\20.png" />
+    <Content Include="mains\images\32\200.png" />
+    <Content Include="mains\images\32\201.png" />
+    <Content Include="mains\images\32\20130408024938993_easyicon_net_32.png" />
+    <Content Include="mains\images\32\20130421113107728_easyicon_net_32.png" />
+    <Content Include="mains\images\32\20130421113227112_easyicon_net_32.png" />
+    <Content Include="mains\images\32\20130505030909440_easyicon_net_32.png" />
+    <Content Include="mains\images\32\2013050503091276_easyicon_net_32.png" />
+    <Content Include="mains\images\32\20130505030915415_easyicon_net_32.png" />
+    <Content Include="mains\images\32\20130505030918325_easyicon_net_32.png" />
+    <Content Include="mains\images\32\20130505030921641_easyicon_net_32.png" />
+    <Content Include="mains\images\32\20130505030925344_easyicon_net_32.png" />
+    <Content Include="mains\images\32\20130505030928375_easyicon_net_32.png" />
+    <Content Include="mains\images\32\2013050503093137_easyicon_net_32.png" />
+    <Content Include="mains\images\32\2013050503093535_easyicon_net_48.png" />
+    <Content Include="mains\images\32\20130508034816125_easyicon_net_32.png" />
+    <Content Include="mains\images\32\20130508035646751_easyicon_net_32.png" />
+    <Content Include="mains\images\32\20130508035912738_easyicon_net_32.png" />
+    <Content Include="mains\images\32\202.png" />
+    <Content Include="mains\images\32\203.png" />
+    <Content Include="mains\images\32\204.png" />
+    <Content Include="mains\images\32\205.png" />
+    <Content Include="mains\images\32\206.png" />
+    <Content Include="mains\images\32\207.png" />
+    <Content Include="mains\images\32\208.png" />
+    <Content Include="mains\images\32\209.png" />
+    <Content Include="mains\images\32\21.png" />
+    <Content Include="mains\images\32\210.png" />
+    <Content Include="mains\images\32\211.png" />
+    <Content Include="mains\images\32\212.png" />
+    <Content Include="mains\images\32\213.png" />
+    <Content Include="mains\images\32\214.png" />
+    <Content Include="mains\images\32\215.png" />
+    <Content Include="mains\images\32\216.png" />
+    <Content Include="mains\images\32\217.png" />
+    <Content Include="mains\images\32\218.png" />
+    <Content Include="mains\images\32\219.png" />
+    <Content Include="mains\images\32\22.png" />
+    <Content Include="mains\images\32\220.png" />
+    <Content Include="mains\images\32\221.png" />
+    <Content Include="mains\images\32\222.png" />
+    <Content Include="mains\images\32\223.png" />
+    <Content Include="mains\images\32\224.png" />
+    <Content Include="mains\images\32\225.png" />
+    <Content Include="mains\images\32\226.png" />
+    <Content Include="mains\images\32\227.png" />
+    <Content Include="mains\images\32\228.png" />
+    <Content Include="mains\images\32\229.png" />
+    <Content Include="mains\images\32\23.png" />
+    <Content Include="mains\images\32\230.png" />
+    <Content Include="mains\images\32\231.png" />
+    <Content Include="mains\images\32\232.png" />
+    <Content Include="mains\images\32\233.png" />
+    <Content Include="mains\images\32\234.png" />
+    <Content Include="mains\images\32\235.png" />
+    <Content Include="mains\images\32\236.png" />
+    <Content Include="mains\images\32\237.png" />
+    <Content Include="mains\images\32\238.png" />
+    <Content Include="mains\images\32\239.png" />
+    <Content Include="mains\images\32\24.png" />
+    <Content Include="mains\images\32\240.png" />
+    <Content Include="mains\images\32\241.png" />
+    <Content Include="mains\images\32\242.png" />
+    <Content Include="mains\images\32\243.png" />
+    <Content Include="mains\images\32\244.png" />
+    <Content Include="mains\images\32\245.png" />
+    <Content Include="mains\images\32\246.png" />
+    <Content Include="mains\images\32\247.png" />
+    <Content Include="mains\images\32\248.png" />
+    <Content Include="mains\images\32\249.png" />
+    <Content Include="mains\images\32\25.png" />
+    <Content Include="mains\images\32\250.png" />
+    <Content Include="mains\images\32\251.png" />
+    <Content Include="mains\images\32\252.png" />
+    <Content Include="mains\images\32\253.png" />
+    <Content Include="mains\images\32\254.png" />
+    <Content Include="mains\images\32\255.png" />
+    <Content Include="mains\images\32\256.png" />
+    <Content Include="mains\images\32\257.png" />
+    <Content Include="mains\images\32\258.png" />
+    <Content Include="mains\images\32\259.png" />
+    <Content Include="mains\images\32\26.png" />
+    <Content Include="mains\images\32\260.png" />
+    <Content Include="mains\images\32\261.png" />
+    <Content Include="mains\images\32\262.png" />
+    <Content Include="mains\images\32\263.png" />
+    <Content Include="mains\images\32\264.png" />
+    <Content Include="mains\images\32\265.png" />
+    <Content Include="mains\images\32\266.png" />
+    <Content Include="mains\images\32\267.png" />
+    <Content Include="mains\images\32\268.png" />
+    <Content Include="mains\images\32\269.png" />
+    <Content Include="mains\images\32\27.png" />
+    <Content Include="mains\images\32\270.png" />
+    <Content Include="mains\images\32\271.png" />
+    <Content Include="mains\images\32\272.png" />
+    <Content Include="mains\images\32\273.png" />
+    <Content Include="mains\images\32\274.png" />
+    <Content Include="mains\images\32\275.png" />
+    <Content Include="mains\images\32\276.png" />
+    <Content Include="mains\images\32\277.png" />
+    <Content Include="mains\images\32\278.png" />
+    <Content Include="mains\images\32\279.png" />
+    <Content Include="mains\images\32\28.png" />
+    <Content Include="mains\images\32\280.png" />
+    <Content Include="mains\images\32\281.png" />
+    <Content Include="mains\images\32\282.png" />
+    <Content Include="mains\images\32\283.png" />
+    <Content Include="mains\images\32\284.png" />
+    <Content Include="mains\images\32\285.png" />
+    <Content Include="mains\images\32\286.png" />
+    <Content Include="mains\images\32\287.png" />
+    <Content Include="mains\images\32\288.png" />
+    <Content Include="mains\images\32\29.png" />
+    <Content Include="mains\images\32\290.png" />
+    <Content Include="mains\images\32\291.png" />
+    <Content Include="mains\images\32\292.png" />
+    <Content Include="mains\images\32\293.png" />
+    <Content Include="mains\images\32\294.png" />
+    <Content Include="mains\images\32\295.png" />
+    <Content Include="mains\images\32\296.png" />
+    <Content Include="mains\images\32\297.png" />
+    <Content Include="mains\images\32\298.png" />
+    <Content Include="mains\images\32\299.png" />
+    <Content Include="mains\images\32\3.png" />
+    <Content Include="mains\images\32\30.png" />
+    <Content Include="mains\images\32\300.png" />
+    <Content Include="mains\images\32\301.png" />
+    <Content Include="mains\images\32\302.png" />
+    <Content Include="mains\images\32\303.png" />
+    <Content Include="mains\images\32\304.png" />
+    <Content Include="mains\images\32\305.png" />
+    <Content Include="mains\images\32\306.png" />
+    <Content Include="mains\images\32\307.png" />
+    <Content Include="mains\images\32\308.png" />
+    <Content Include="mains\images\32\309.png" />
+    <Content Include="mains\images\32\31.png" />
+    <Content Include="mains\images\32\310.png" />
+    <Content Include="mains\images\32\311.png" />
+    <Content Include="mains\images\32\312.png" />
+    <Content Include="mains\images\32\313.png" />
+    <Content Include="mains\images\32\314.png" />
+    <Content Include="mains\images\32\315.png" />
+    <Content Include="mains\images\32\316.png" />
+    <Content Include="mains\images\32\317.png" />
+    <Content Include="mains\images\32\318.png" />
+    <Content Include="mains\images\32\319.png" />
+    <Content Include="mains\images\32\32.png" />
+    <Content Include="mains\images\32\320.png" />
+    <Content Include="mains\images\32\321.png" />
+    <Content Include="mains\images\32\322.png" />
+    <Content Include="mains\images\32\323.png" />
+    <Content Include="mains\images\32\324.png" />
+    <Content Include="mains\images\32\325.png" />
+    <Content Include="mains\images\32\326.png" />
+    <Content Include="mains\images\32\328.png" />
+    <Content Include="mains\images\32\329.png" />
+    <Content Include="mains\images\32\33.png" />
+    <Content Include="mains\images\32\330.png" />
+    <Content Include="mains\images\32\331.png" />
+    <Content Include="mains\images\32\332.png" />
+    <Content Include="mains\images\32\333.png" />
+    <Content Include="mains\images\32\334.png" />
+    <Content Include="mains\images\32\335.png" />
+    <Content Include="mains\images\32\336.png" />
+    <Content Include="mains\images\32\337.png" />
+    <Content Include="mains\images\32\338.png" />
+    <Content Include="mains\images\32\339.png" />
+    <Content Include="mains\images\32\34.png" />
+    <Content Include="mains\images\32\340.png" />
+    <Content Include="mains\images\32\341.png" />
+    <Content Include="mains\images\32\342.png" />
+    <Content Include="mains\images\32\343.png" />
+    <Content Include="mains\images\32\344.png" />
+    <Content Include="mains\images\32\345.png" />
+    <Content Include="mains\images\32\346.png" />
+    <Content Include="mains\images\32\347.png" />
+    <Content Include="mains\images\32\348.png" />
+    <Content Include="mains\images\32\349.png" />
+    <Content Include="mains\images\32\35.png" />
+    <Content Include="mains\images\32\350.png" />
+    <Content Include="mains\images\32\351.png" />
+    <Content Include="mains\images\32\352.png" />
+    <Content Include="mains\images\32\353.png" />
+    <Content Include="mains\images\32\354.png" />
+    <Content Include="mains\images\32\355.png" />
+    <Content Include="mains\images\32\356.png" />
+    <Content Include="mains\images\32\357.png" />
+    <Content Include="mains\images\32\359.png" />
+    <Content Include="mains\images\32\36.png" />
+    <Content Include="mains\images\32\361.png" />
+    <Content Include="mains\images\32\362.png" />
+    <Content Include="mains\images\32\363.png" />
+    <Content Include="mains\images\32\364.png" />
+    <Content Include="mains\images\32\365.png" />
+    <Content Include="mains\images\32\366.png" />
+    <Content Include="mains\images\32\367.png" />
+    <Content Include="mains\images\32\368.png" />
+    <Content Include="mains\images\32\369.png" />
+    <Content Include="mains\images\32\37.png" />
+    <Content Include="mains\images\32\370.png" />
+    <Content Include="mains\images\32\371.png" />
+    <Content Include="mains\images\32\372.png" />
+    <Content Include="mains\images\32\373.png" />
+    <Content Include="mains\images\32\374.png" />
+    <Content Include="mains\images\32\375.png" />
+    <Content Include="mains\images\32\376.png" />
+    <Content Include="mains\images\32\377.png" />
+    <Content Include="mains\images\32\378.png" />
+    <Content Include="mains\images\32\379.png" />
+    <Content Include="mains\images\32\38.png" />
+    <Content Include="mains\images\32\380.png" />
+    <Content Include="mains\images\32\381.png" />
+    <Content Include="mains\images\32\382.png" />
+    <Content Include="mains\images\32\383.png" />
+    <Content Include="mains\images\32\384.png" />
+    <Content Include="mains\images\32\385.png" />
+    <Content Include="mains\images\32\386.png" />
+    <Content Include="mains\images\32\387.png" />
+    <Content Include="mains\images\32\388.png" />
+    <Content Include="mains\images\32\389.png" />
+    <Content Include="mains\images\32\39.png" />
+    <Content Include="mains\images\32\390.png" />
+    <Content Include="mains\images\32\391.png" />
+    <Content Include="mains\images\32\392.png" />
+    <Content Include="mains\images\32\393.png" />
+    <Content Include="mains\images\32\394.png" />
+    <Content Include="mains\images\32\395.png" />
+    <Content Include="mains\images\32\396.png" />
+    <Content Include="mains\images\32\397.png" />
+    <Content Include="mains\images\32\398.png" />
+    <Content Include="mains\images\32\399.png" />
+    <Content Include="mains\images\32\4.png" />
+    <Content Include="mains\images\32\40.png" />
+    <Content Include="mains\images\32\400.png" />
+    <Content Include="mains\images\32\401.png" />
+    <Content Include="mains\images\32\402.png" />
+    <Content Include="mains\images\32\403.png" />
+    <Content Include="mains\images\32\404.png" />
+    <Content Include="mains\images\32\405.png" />
+    <Content Include="mains\images\32\406.png" />
+    <Content Include="mains\images\32\407.png" />
+    <Content Include="mains\images\32\408.png" />
+    <Content Include="mains\images\32\409.png" />
+    <Content Include="mains\images\32\41.png" />
+    <Content Include="mains\images\32\410.png" />
+    <Content Include="mains\images\32\411.png" />
+    <Content Include="mains\images\32\413.png" />
+    <Content Include="mains\images\32\414.png" />
+    <Content Include="mains\images\32\415.png" />
+    <Content Include="mains\images\32\416.png" />
+    <Content Include="mains\images\32\417.png" />
+    <Content Include="mains\images\32\418.png" />
+    <Content Include="mains\images\32\419.png" />
+    <Content Include="mains\images\32\42.png" />
+    <Content Include="mains\images\32\420.png" />
+    <Content Include="mains\images\32\421.png" />
+    <Content Include="mains\images\32\422.png" />
+    <Content Include="mains\images\32\423.png" />
+    <Content Include="mains\images\32\424.png" />
+    <Content Include="mains\images\32\425.png" />
+    <Content Include="mains\images\32\426.png" />
+    <Content Include="mains\images\32\427.png" />
+    <Content Include="mains\images\32\428.png" />
+    <Content Include="mains\images\32\429.png" />
+    <Content Include="mains\images\32\43.png" />
+    <Content Include="mains\images\32\430.png" />
+    <Content Include="mains\images\32\431.png" />
+    <Content Include="mains\images\32\432.png" />
+    <Content Include="mains\images\32\433.png" />
+    <Content Include="mains\images\32\434.png" />
+    <Content Include="mains\images\32\435.png" />
+    <Content Include="mains\images\32\436.png" />
+    <Content Include="mains\images\32\437.png" />
+    <Content Include="mains\images\32\438.png" />
+    <Content Include="mains\images\32\4381.png" />
+    <Content Include="mains\images\32\439.png" />
+    <Content Include="mains\images\32\44.png" />
+    <Content Include="mains\images\32\440.png" />
+    <Content Include="mains\images\32\441.png" />
+    <Content Include="mains\images\32\442.png" />
+    <Content Include="mains\images\32\443.png" />
+    <Content Include="mains\images\32\444.png" />
+    <Content Include="mains\images\32\445.png" />
+    <Content Include="mains\images\32\446.png" />
+    <Content Include="mains\images\32\447.png" />
+    <Content Include="mains\images\32\448.png" />
+    <Content Include="mains\images\32\449.png" />
+    <Content Include="mains\images\32\45.png" />
+    <Content Include="mains\images\32\450.png" />
+    <Content Include="mains\images\32\451.png" />
+    <Content Include="mains\images\32\452.png" />
+    <Content Include="mains\images\32\453.png" />
+    <Content Include="mains\images\32\454.png" />
+    <Content Include="mains\images\32\455.png" />
+    <Content Include="mains\images\32\456.png" />
+    <Content Include="mains\images\32\457.png" />
+    <Content Include="mains\images\32\458.png" />
+    <Content Include="mains\images\32\459.png" />
+    <Content Include="mains\images\32\46.png" />
+    <Content Include="mains\images\32\460.png" />
+    <Content Include="mains\images\32\461.png" />
+    <Content Include="mains\images\32\462.png" />
+    <Content Include="mains\images\32\463.png" />
+    <Content Include="mains\images\32\464.png" />
+    <Content Include="mains\images\32\465.png" />
+    <Content Include="mains\images\32\466.png" />
+    <Content Include="mains\images\32\467.png" />
+    <Content Include="mains\images\32\468.png" />
+    <Content Include="mains\images\32\469.png" />
+    <Content Include="mains\images\32\47.png" />
+    <Content Include="mains\images\32\470.png" />
+    <Content Include="mains\images\32\471.png" />
+    <Content Include="mains\images\32\472.png" />
+    <Content Include="mains\images\32\473.png" />
+    <Content Include="mains\images\32\474.png" />
+    <Content Include="mains\images\32\475.png" />
+    <Content Include="mains\images\32\476.png" />
+    <Content Include="mains\images\32\477.png" />
+    <Content Include="mains\images\32\478.png" />
+    <Content Include="mains\images\32\479.png" />
+    <Content Include="mains\images\32\48.png" />
+    <Content Include="mains\images\32\480.png" />
+    <Content Include="mains\images\32\481.png" />
+    <Content Include="mains\images\32\482.png" />
+    <Content Include="mains\images\32\483.png" />
+    <Content Include="mains\images\32\484.png" />
+    <Content Include="mains\images\32\485.png" />
+    <Content Include="mains\images\32\486.png" />
+    <Content Include="mains\images\32\487.png" />
+    <Content Include="mains\images\32\488.png" />
+    <Content Include="mains\images\32\489.png" />
+    <Content Include="mains\images\32\49.png" />
+    <Content Include="mains\images\32\490.png" />
+    <Content Include="mains\images\32\491.png" />
+    <Content Include="mains\images\32\492.png" />
+    <Content Include="mains\images\32\493.png" />
+    <Content Include="mains\images\32\4934_hire-me.png" />
+    <Content Include="mains\images\32\4935_free-for-job.png" />
+    <Content Include="mains\images\32\4936_my-account.png" />
+    <Content Include="mains\images\32\4937_administrative-docs.png" />
+    <Content Include="mains\images\32\4938_business-contact.png" />
+    <Content Include="mains\images\32\4939_finished-work.png" />
+    <Content Include="mains\images\32\494.png" />
+    <Content Include="mains\images\32\4940_sign-out.png" />
+    <Content Include="mains\images\32\4941_payment-card.png" />
+    <Content Include="mains\images\32\4942_graphic-design.png" />
+    <Content Include="mains\images\32\4943_sign-in.png" />
+    <Content Include="mains\images\32\4944_full-time.png" />
+    <Content Include="mains\images\32\4945_product-design.png" />
+    <Content Include="mains\images\32\4946_future-projects.png" />
+    <Content Include="mains\images\32\4947_order-1.png" />
+    <Content Include="mains\images\32\4948_current-work.png" />
+    <Content Include="mains\images\32\4949_special-offer.png" />
+    <Content Include="mains\images\32\495.png" />
+    <Content Include="mains\images\32\4950_old-versions.png" />
+    <Content Include="mains\images\32\4951_world.png" />
+    <Content Include="mains\images\32\4952_product-1.png" />
+    <Content Include="mains\images\32\4953_upcoming-work.png" />
+    <Content Include="mains\images\32\4954_sign-up.png" />
+    <Content Include="mains\images\32\4955_credit-card.png" />
+    <Content Include="mains\images\32\4956_document-library.png" />
+    <Content Include="mains\images\32\4957_customers.png" />
+    <Content Include="mains\images\32\4958_login.png" />
+    <Content Include="mains\images\32\4959_limited-edition.png" />
+    <Content Include="mains\images\32\496.png" />
+    <Content Include="mains\images\32\4960_check.png" />
+    <Content Include="mains\images\32\4961_category.png" />
+    <Content Include="mains\images\32\4962_sitemap.png" />
+    <Content Include="mains\images\32\4963_home.png" />
+    <Content Include="mains\images\32\4964_bank.png" />
+    <Content Include="mains\images\32\4965_archives.png" />
+    <Content Include="mains\images\32\4966_logout.png" />
+    <Content Include="mains\images\32\4967_contact.png" />
+    <Content Include="mains\images\32\4968_config.png" />
+    <Content Include="mains\images\32\4969_cv.png" />
+    <Content Include="mains\images\32\497.png" />
+    <Content Include="mains\images\32\4970_email.png" />
+    <Content Include="mains\images\32\4971_bestseller.png" />
+    <Content Include="mains\images\32\4972_billing.png" />
+    <Content Include="mains\images\32\4973_pencil.png" />
+    <Content Include="mains\images\32\4974_plus.png" />
+    <Content Include="mains\images\32\4975_publish.png" />
+    <Content Include="mains\images\32\4976_lightbulb.png" />
+    <Content Include="mains\images\32\4977_photography.png" />
+    <Content Include="mains\images\32\4978_order.png" />
+    <Content Include="mains\images\32\4979_print.png" />
+    <Content Include="mains\images\32\498.png" />
+    <Content Include="mains\images\32\4980_communication.png" />
+    <Content Include="mains\images\32\4981_brainstorming.png" />
+    <Content Include="mains\images\32\4982_freelance.png" />
+    <Content Include="mains\images\32\4983_paypal.png" />
+    <Content Include="mains\images\32\4984_bookmark.png" />
+    <Content Include="mains\images\32\4985_delicious.png" />
+    <Content Include="mains\images\32\4986_issue.png" />
+    <Content Include="mains\images\32\4988_product.png" />
+    <Content Include="mains\images\32\4989_attibutes.png" />
+    <Content Include="mains\images\32\499.png" />
+    <Content Include="mains\images\32\4990_heart.png" />
+    <Content Include="mains\images\32\4991_pen.png" />
+    <Content Include="mains\images\32\4992_user.png" />
+    <Content Include="mains\images\32\4993_folder.png" />
+    <Content Include="mains\images\32\4994_search.png" />
+    <Content Include="mains\images\32\4995_donate.png" />
+    <Content Include="mains\images\32\4997_advertising.png" />
+    <Content Include="mains\images\32\4998_milestone.png" />
+    <Content Include="mains\images\32\4999_credit.png" />
+    <Content Include="mains\images\32\5.png" />
+    <Content Include="mains\images\32\50.png" />
+    <Content Include="mains\images\32\500.png" />
+    <Content Include="mains\images\32\5000_tag.png" />
+    <Content Include="mains\images\32\5001_date.png" />
+    <Content Include="mains\images\32\5002_address.png" />
+    <Content Include="mains\images\32\5003_phone.png" />
+    <Content Include="mains\images\32\5004_illustration.png" />
+    <Content Include="mains\images\32\5005_flag.png" />
+    <Content Include="mains\images\32\5006_feed.png" />
+    <Content Include="mains\images\32\5007_cost.png" />
+    <Content Include="mains\images\32\5008_consulting.png" />
+    <Content Include="mains\images\32\5009_showreel.png" />
+    <Content Include="mains\images\32\501.png" />
+    <Content Include="mains\images\32\5010_comment.png" />
+    <Content Include="mains\images\32\5011_library.png" />
+    <Content Include="mains\images\32\5012_process.png" />
+    <Content Include="mains\images\32\5013_twitter.png" />
+    <Content Include="mains\images\32\5014_busy.png" />
+    <Content Include="mains\images\32\5015_lock.png" />
+    <Content Include="mains\images\32\5016_shipping.png" />
+    <Content Include="mains\images\32\5017_statistics.png" />
+    <Content Include="mains\images\32\5018_link.png" />
+    <Content Include="mains\images\32\5019_project.png" />
+    <Content Include="mains\images\32\502.png" />
+    <Content Include="mains\images\32\5020_invoice.png" />
+    <Content Include="mains\images\32\5021_zoom.png" />
+    <Content Include="mains\images\32\5022_edit.png" />
+    <Content Include="mains\images\32\5023_featured.png" />
+    <Content Include="mains\images\32\5024_ticket.png" />
+    <Content Include="mains\images\32\5025_networking.png" />
+    <Content Include="mains\images\32\5026_settings.png" />
+    <Content Include="mains\images\32\5027_collaboration.png" />
+    <Content Include="mains\images\32\5028_suppliers.png" />
+    <Content Include="mains\images\32\5029_star.png" />
+    <Content Include="mains\images\32\503.png" />
+    <Content Include="mains\images\32\5030_drawings.png" />
+    <Content Include="mains\images\32\5031_database.png" />
+    <Content Include="mains\images\32\5032_premium.png" />
+    <Content Include="mains\images\32\504.png" />
+    <Content Include="mains\images\32\505.png" />
+    <Content Include="mains\images\32\506.png" />
+    <Content Include="mains\images\32\507.png" />
+    <Content Include="mains\images\32\508.png" />
+    <Content Include="mains\images\32\509.png" />
+    <Content Include="mains\images\32\51.png" />
+    <Content Include="mains\images\32\510.png" />
+    <Content Include="mains\images\32\511.png" />
+    <Content Include="mains\images\32\512.png" />
+    <Content Include="mains\images\32\513.png" />
+    <Content Include="mains\images\32\514.png" />
+    <Content Include="mains\images\32\515.png" />
+    <Content Include="mains\images\32\516.png" />
+    <Content Include="mains\images\32\517.png" />
+    <Content Include="mains\images\32\518.png" />
+    <Content Include="mains\images\32\519.png" />
+    <Content Include="mains\images\32\52.png" />
+    <Content Include="mains\images\32\520.png" />
+    <Content Include="mains\images\32\521.png" />
+    <Content Include="mains\images\32\522.png" />
+    <Content Include="mains\images\32\523.png" />
+    <Content Include="mains\images\32\524.png" />
+    <Content Include="mains\images\32\525.png" />
+    <Content Include="mains\images\32\526.png" />
+    <Content Include="mains\images\32\527.png" />
+    <Content Include="mains\images\32\528.png" />
+    <Content Include="mains\images\32\529.png" />
+    <Content Include="mains\images\32\53.png" />
+    <Content Include="mains\images\32\530.png" />
+    <Content Include="mains\images\32\531.png" />
+    <Content Include="mains\images\32\532.png" />
+    <Content Include="mains\images\32\533.png" />
+    <Content Include="mains\images\32\534.png" />
+    <Content Include="mains\images\32\535.png" />
+    <Content Include="mains\images\32\536.png" />
+    <Content Include="mains\images\32\537.png" />
+    <Content Include="mains\images\32\538.png" />
+    <Content Include="mains\images\32\539.png" />
+    <Content Include="mains\images\32\54.png" />
+    <Content Include="mains\images\32\540.png" />
+    <Content Include="mains\images\32\541.png" />
+    <Content Include="mains\images\32\5418.png" />
+    <Content Include="mains\images\32\542.png" />
+    <Content Include="mains\images\32\543.png" />
+    <Content Include="mains\images\32\544.png" />
+    <Content Include="mains\images\32\545.png" />
+    <Content Include="mains\images\32\546.png" />
+    <Content Include="mains\images\32\547.png" />
+    <Content Include="mains\images\32\548.png" />
+    <Content Include="mains\images\32\549.png" />
+    <Content Include="mains\images\32\55.png" />
+    <Content Include="mains\images\32\550.png" />
+    <Content Include="mains\images\32\551.png" />
+    <Content Include="mains\images\32\552.png" />
+    <Content Include="mains\images\32\553.png" />
+    <Content Include="mains\images\32\554.png" />
+    <Content Include="mains\images\32\555.png" />
+    <Content Include="mains\images\32\556.png" />
+    <Content Include="mains\images\32\557.png" />
+    <Content Include="mains\images\32\558.png" />
+    <Content Include="mains\images\32\559.png" />
+    <Content Include="mains\images\32\56.png" />
+    <Content Include="mains\images\32\560.png" />
+    <Content Include="mains\images\32\561.png" />
+    <Content Include="mains\images\32\562.png" />
+    <Content Include="mains\images\32\563.png" />
+    <Content Include="mains\images\32\564.png" />
+    <Content Include="mains\images\32\565.png" />
+    <Content Include="mains\images\32\566.png" />
+    <Content Include="mains\images\32\567.png" />
+    <Content Include="mains\images\32\568.png" />
+    <Content Include="mains\images\32\569.png" />
+    <Content Include="mains\images\32\57.png" />
+    <Content Include="mains\images\32\570.png" />
+    <Content Include="mains\images\32\571.png" />
+    <Content Include="mains\images\32\572.png" />
+    <Content Include="mains\images\32\573.png" />
+    <Content Include="mains\images\32\574.png" />
+    <Content Include="mains\images\32\575.png" />
+    <Content Include="mains\images\32\576.png" />
+    <Content Include="mains\images\32\577.png" />
+    <Content Include="mains\images\32\578.png" />
+    <Content Include="mains\images\32\579.png" />
+    <Content Include="mains\images\32\58.png" />
+    <Content Include="mains\images\32\580.png" />
+    <Content Include="mains\images\32\581.png" />
+    <Content Include="mains\images\32\582.png" />
+    <Content Include="mains\images\32\583.png" />
+    <Content Include="mains\images\32\584.png" />
+    <Content Include="mains\images\32\585.png" />
+    <Content Include="mains\images\32\586.png" />
+    <Content Include="mains\images\32\587.png" />
+    <Content Include="mains\images\32\588.png" />
+    <Content Include="mains\images\32\589.png" />
+    <Content Include="mains\images\32\59.png" />
+    <Content Include="mains\images\32\590.png" />
+    <Content Include="mains\images\32\591.png" />
+    <Content Include="mains\images\32\592.png" />
+    <Content Include="mains\images\32\593.png" />
+    <Content Include="mains\images\32\594.png" />
+    <Content Include="mains\images\32\595.png" />
+    <Content Include="mains\images\32\596.png" />
+    <Content Include="mains\images\32\597.png" />
+    <Content Include="mains\images\32\598.png" />
+    <Content Include="mains\images\32\599.png" />
+    <Content Include="mains\images\32\6.png" />
+    <Content Include="mains\images\32\60.png" />
+    <Content Include="mains\images\32\600.png" />
+    <Content Include="mains\images\32\601.png" />
+    <Content Include="mains\images\32\602.png" />
+    <Content Include="mains\images\32\603.png" />
+    <Content Include="mains\images\32\604.png" />
+    <Content Include="mains\images\32\605.png" />
+    <Content Include="mains\images\32\606.png" />
+    <Content Include="mains\images\32\607.png" />
+    <Content Include="mains\images\32\608.png" />
+    <Content Include="mains\images\32\609.png" />
+    <Content Include="mains\images\32\61.png" />
+    <Content Include="mains\images\32\610.png" />
+    <Content Include="mains\images\32\611.png" />
+    <Content Include="mains\images\32\612.png" />
+    <Content Include="mains\images\32\613.png" />
+    <Content Include="mains\images\32\614.png" />
+    <Content Include="mains\images\32\615.png" />
+    <Content Include="mains\images\32\616.png" />
+    <Content Include="mains\images\32\617.png" />
+    <Content Include="mains\images\32\618.png" />
+    <Content Include="mains\images\32\619.png" />
+    <Content Include="mains\images\32\62.png" />
+    <Content Include="mains\images\32\620.png" />
+    <Content Include="mains\images\32\621.png" />
+    <Content Include="mains\images\32\622.png" />
+    <Content Include="mains\images\32\623.png" />
+    <Content Include="mains\images\32\624.png" />
+    <Content Include="mains\images\32\625.png" />
+    <Content Include="mains\images\32\626.png" />
+    <Content Include="mains\images\32\627.png" />
+    <Content Include="mains\images\32\628.png" />
+    <Content Include="mains\images\32\629.png" />
+    <Content Include="mains\images\32\63.png" />
+    <Content Include="mains\images\32\630.png" />
+    <Content Include="mains\images\32\631.png" />
+    <Content Include="mains\images\32\632.png" />
+    <Content Include="mains\images\32\633.png" />
+    <Content Include="mains\images\32\634.png" />
+    <Content Include="mains\images\32\635.png" />
+    <Content Include="mains\images\32\636.png" />
+    <Content Include="mains\images\32\637.png" />
+    <Content Include="mains\images\32\638.png" />
+    <Content Include="mains\images\32\639.png" />
+    <Content Include="mains\images\32\64.png" />
+    <Content Include="mains\images\32\640.png" />
+    <Content Include="mains\images\32\641.png" />
+    <Content Include="mains\images\32\642.png" />
+    <Content Include="mains\images\32\643.png" />
+    <Content Include="mains\images\32\644.png" />
+    <Content Include="mains\images\32\645.png" />
+    <Content Include="mains\images\32\646.png" />
+    <Content Include="mains\images\32\65.png" />
+    <Content Include="mains\images\32\66.png" />
+    <Content Include="mains\images\32\67.png" />
+    <Content Include="mains\images\32\68.png" />
+    <Content Include="mains\images\32\69.png" />
+    <Content Include="mains\images\32\7.png" />
+    <Content Include="mains\images\32\70.png" />
+    <Content Include="mains\images\32\71.png" />
+    <Content Include="mains\images\32\72.png" />
+    <Content Include="mains\images\32\73.png" />
+    <Content Include="mains\images\32\74.png" />
+    <Content Include="mains\images\32\75.png" />
+    <Content Include="mains\images\32\76.png" />
+    <Content Include="mains\images\32\77.png" />
+    <Content Include="mains\images\32\78.png" />
+    <Content Include="mains\images\32\79.png" />
+    <Content Include="mains\images\32\8.png" />
+    <Content Include="mains\images\32\80.png" />
+    <Content Include="mains\images\32\81.png" />
+    <Content Include="mains\images\32\82.png" />
+    <Content Include="mains\images\32\83.png" />
+    <Content Include="mains\images\32\84.png" />
+    <Content Include="mains\images\32\85.png" />
+    <Content Include="mains\images\32\86.png" />
+    <Content Include="mains\images\32\87.png" />
+    <Content Include="mains\images\32\88.png" />
+    <Content Include="mains\images\32\89.png" />
+    <Content Include="mains\images\32\9.png" />
+    <Content Include="mains\images\32\90.png" />
+    <Content Include="mains\images\32\91.png" />
+    <Content Include="mains\images\32\92.png" />
+    <Content Include="mains\images\32\94.png" />
+    <Content Include="mains\images\32\96.png" />
+    <Content Include="mains\images\32\97.png" />
+    <Content Include="mains\images\32\98.png" />
+    <Content Include="mains\images\32\99.png" />
+    <Content Include="mains\images\32\client.png" />
+    <Content Include="mains\images\32\people.png" />
+    <Content Include="mains\images\32\sitemap.png" />
+    <Content Include="mains\images\32\userregedit.png" />
+    <Content Include="mains\images\32\users_business_32.png" />
+    <Content Include="mains\images\4963_home.png" />
+    <Content Include="mains\images\arrow_down.png" />
+    <Content Include="mains\images\arrow_left.png" />
+    <Content Include="mains\images\arrow_right.png" />
+    <Content Include="mains\images\arrow_up.png" />
+    <Content Include="mains\images\bmslogo.png" />
+    <Content Include="mains\images\button-white-stop.png" />
+    <Content Include="mains\images\cancel.png" />
+    <Content Include="mains\images\chart_bar.png" />
+    <Content Include="mains\images\checkAllOff.gif" />
+    <Content Include="mains\images\checkAllOn.gif" />
+    <Content Include="mains\images\clock_32.png" />
+    <Content Include="mains\images\close_32.png" />
+    <Content Include="mains\images\close_side_ico.jpg" />
+    <Content Include="mains\images\close_side_icol.jpg" />
+    <Content Include="mains\images\delete.png" />
+    <Content Include="mains\images\disk.png" />
+    <Content Include="mains\images\exclamation_octagon_fram.png" />
+    <Content Include="mains\images\Headerbotton.png" />
+    <Content Include="mains\images\illustration.png" />
+    <Content Include="mains\images\input_text_bg.gif" />
+    <Content Include="mains\images\left-title-bg-h.png" />
+    <Content Include="mains\images\left-title-bg.png" />
+    <Content Include="mains\images\lightning.png" />
+    <Content Include="mains\images\loading.gif" />
+    <Content Include="mains\images\loading1.gif" />
+    <Content Include="mains\images\Login\137.png" />
+    <Content Include="mains\images\Login\bg.jpg" />
+    <Content Include="mains\images\Login\bg2.png" />
+    <Content Include="mains\images\Login\loading.gif" />
+    <Content Include="mains\images\Login\login-v2-load.png" />
+    <Content Include="mains\images\logo.png" />
+    <Content Include="mains\images\Max_arrow_left.png" />
+    <Content Include="mains\images\Max_arrow_right.png" />
+    <Content Include="mains\images\milestone.png" />
+    <Content Include="mains\images\msg_bg.jpg" />
+    <Content Include="mains\images\navbg.png" />
+    <Content Include="mains\images\nav_bg.jpg" />
+    <Content Include="mains\images\nav_link.gif" />
+    <Content Include="mains\images\networking.png" />
+    <Content Include="mains\images\refresh.png" />
+    <Content Include="mains\images\Search.png" />
+    <Content Include="mains\images\sun_2.png" />
+    <Content Include="mains\images\tab_left.png" />
+    <Content Include="mains\images\tab_leftSet.png" />
+    <Content Include="mains\images\tab_right.png" />
+    <Content Include="mains\images\tab_rightSet.png" />
+    <Content Include="mains\images\title_over.png" />
+    <Content Include="mains\images\title_over1.png" />
+    <Content Include="mains\images\toolbar_find.png" />
+    <Content Include="mains\images\topbg.png" />
+    <Content Include="mains\images\top_title.png" />
+    <Content Include="mains\images\top_title1.png" />
+    <Content Include="mains\images\user_mature.png" />
+    <Content Include="mains\images\validatebox_warning.png" />
+    <Content Include="mains\images\window-resize.png" />
+    <Content Include="mains\images\world_add.png" />
+    <Content Include="mains\images\x1.gif" />
+    <Content Include="mains\images\x2.gif" />
+    <Content Include="mains\images\x3.gif" />
+    <Content Include="mains\Index.xml" />
+    <Content Include="mains\Json\Index.aspx" />
+    <Content Include="mains\Json\Index.xml" />
+    <Content Include="mains\layer-v2.3\demo.html" />
+    <Content Include="mains\layer-v2.3\layer\layer.js" />
+    <Content Include="mains\layer-v2.3\layer\skin\default\icon-ext.png" />
+    <Content Include="mains\layer-v2.3\layer\skin\default\icon.png" />
+    <Content Include="mains\layer-v2.3\layer\skin\default\loading-0.gif" />
+    <Content Include="mains\layer-v2.3\layer\skin\default\loading-1.gif" />
+    <Content Include="mains\layer-v2.3\layer\skin\default\loading-2.gif" />
+    <Content Include="mains\layer-v2.3\layer\skin\layer.css" />
+    <Content Include="mains\layer-v2.3\打赏.jpg" />
+    <Content Include="mains\layer-v2.3\更新日志.txt" />
+    <Content Include="mains\laypage-v1.3\demo.html" />
+    <Content Include="mains\laypage-v1.3\laypage\laypage.js" />
+    <Content Include="mains\laypage-v1.3\laypage\skin\laypage.css" />
+    <Content Include="mains\laypage-v1.3\打赏.jpg" />
+    <Content Include="mains\laypage-v1.3\更新日志.txt" />
+    <Content Include="mains\scripts\Index.js" />
+    <Content Include="mains\scripts\Index2.js" />
+    <Content Include="mains\scripts\jquery-1.9.1.min.js" />
+    <Content Include="mains\styles\Common.css" />
+    <Content Include="mains\styles\Index.css" />
+    <Content Include="mains\styles\Index2.css" />
+    <Content Include="mains\Views\browseRecords.aspx" />
+    <Content Include="mains\Views\index.aspx" />
+    <Content Include="mains\Views\Index.html" />
+    <Content Include="mains\Views\Index2.html" />
+    <Content Include="recordDemo.aspx" />
+    <Content Include="records.aspx" />
+    <Content Include="sec.aspx" />
+    <Content Include="section.aspx" />
+    <Content Include="userAdd.aspx" />
+    <Content Include="userChg.aspx" />
+    <Content Include="users.aspx" />
+    <Content Include="webservice\labCourseService.asmx" />
+    <Content Include="webservice\labInfoService.asmx" />
+    <Content Include="webservice\recordsService.asmx" />
+    <Content Include="webservice\userService.asmx" />
+    <Content Include="week.aspx" />
+    <Content Include="weeks.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="chgDetail.aspx.cs">
+      <DependentUpon>chgDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chgDetail.aspx.designer.cs">
+      <DependentUpon>chgDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chgPWD.aspx.cs">
+      <DependentUpon>chgPWD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chgPWD.aspx.designer.cs">
+      <DependentUpon>chgPWD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="course.aspx.cs">
+      <DependentUpon>course.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="course.aspx.designer.cs">
+      <DependentUpon>course.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="courseDesign.aspx.cs">
+      <DependentUpon>courseDesign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="courseDesign.aspx.designer.cs">
+      <DependentUpon>courseDesign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CourseTable.aspx.cs">
+      <DependentUpon>CourseTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CourseTable.aspx.designer.cs">
+      <DependentUpon>CourseTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="day.aspx.cs">
+      <DependentUpon>day.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="day.aspx.designer.cs">
+      <DependentUpon>day.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lab.aspx.cs">
+      <DependentUpon>lab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lab.aspx.designer.cs">
+      <DependentUpon>lab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="labAdd.aspx.cs">
+      <DependentUpon>labAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="labAdd.aspx.designer.cs">
+      <DependentUpon>labAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="labPlan.aspx.cs">
+      <DependentUpon>labPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="labPlan.aspx.designer.cs">
+      <DependentUpon>labPlan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="labPlans.aspx.cs">
+      <DependentUpon>labPlans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="labPlans.aspx.designer.cs">
+      <DependentUpon>labPlans.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="labUpdate.aspx.cs">
+      <DependentUpon>labUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="labUpdate.aspx.designer.cs">
+      <DependentUpon>labUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="main.aspx.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="main.aspx.designer.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mains\Json\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mains\Views\browseRecords.aspx.cs">
+      <DependentUpon>browseRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mains\Views\browseRecords.aspx.designer.cs">
+      <DependentUpon>browseRecords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mains\Views\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mains\Views\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="recordDemo.aspx.cs">
+      <DependentUpon>recordDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="recordDemo.aspx.designer.cs">
+      <DependentUpon>recordDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="records.aspx.cs">
+      <DependentUpon>records.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="records.aspx.designer.cs">
+      <DependentUpon>records.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sec.aspx.cs">
+      <DependentUpon>sec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sec.aspx.designer.cs">
+      <DependentUpon>sec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="section.aspx.cs">
+      <DependentUpon>section.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="section.aspx.designer.cs">
+      <DependentUpon>section.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webservice\upload.ashx.cs">
+      <DependentUpon>upload.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="userAdd.aspx.cs">
+      <DependentUpon>userAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userAdd.aspx.designer.cs">
+      <DependentUpon>userAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userChg.aspx.cs">
+      <DependentUpon>userChg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userChg.aspx.designer.cs">
+      <DependentUpon>userChg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="users.aspx.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="users.aspx.designer.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webservice\labCourseService.asmx.cs">
+      <DependentUpon>labCourseService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="webservice\labInfoService.asmx.cs">
+      <DependentUpon>labInfoService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="webservice\recordsService.asmx.cs">
+      <DependentUpon>recordsService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="webservice\userService.asmx.cs">
+      <DependentUpon>userService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="week.aspx.cs">
+      <DependentUpon>week.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="week.aspx.designer.cs">
+      <DependentUpon>week.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weeks.aspx.cs">
+      <DependentUpon>weeks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weeks.aspx.designer.cs">
+      <DependentUpon>weeks.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mains\layer-v2.3\doc\jquery下载.url" />
+    <Content Include="mains\layer-v2.3\doc\layer交流.url" />
+    <Content Include="mains\layer-v2.3\doc\layer官网.url" />
+    <Content Include="mains\laypage-v1.3\doc\layPage交流.url" />
+    <Content Include="mains\laypage-v1.3\doc\官网.url" />
+    <Content Include="mains\laypage-v1.3\doc\贤心博客.url" />
+    <Content Include="file\实验教学周课表.doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{7cc24036-210c-476d-8130-0dfaa784dbe5}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{eea32a50-ab11-4980-ae96-90498bffcdb2}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="backUp\LabCourseSystem.bak" />
+    <None Include="Properties\PublishProfiles\config.pubxml" />
+    <Content Include="webservice\upload.ashx" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2594</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64488/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

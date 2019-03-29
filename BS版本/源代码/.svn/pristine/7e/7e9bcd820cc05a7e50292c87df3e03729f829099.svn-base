@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.IO;
+using NPOI.SS.UserModel;        //NPOI
+using NPOI.HSSF.Util;           //NPOI
+using NPOI.HSSF.UserModel;      //NPOI
+using System.Data.SqlClient;
+using System.Data;
+
+namespace NpoiClass
+{
+    public class npoiClass
+    {
+        //npoi v2.0版本 支持xls和xlsx的导入导出
+
+        HSSFWorkbook hssfworkbook;
+        /// <summary>
+        /// NPOI导出Excel，不依赖本地是否装有Excel，导出速度快
+        /// </summary>
+        /// <param name="dataGridView1">要导出的dataGridView控件</param>
+        /// <param name="sheetName">sheet表名</param>
+        ///
+        public  void ExportToExcel(DataTable dt, string sheetName,string filePath)
+        {
+            HSSFWorkbook workbook = new HSSFWorkbook();
+            ISheet sheet = workbook.CreateSheet(sheetName);
+            IRow rowHead = sheet.CreateRow(0);
+
+            //填写表头
+            for (int i = 0; i < dt.Columns.Count; i++)
+            {
+                rowHead.CreateCell(i, CellType.STRING).SetCellValue(dt.Columns[i].ColumnName.ToString());
+            }
+            //填写内容
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                IRow row = sheet.CreateRow(i + 1);
+                for (int j = 0; j < dt.Columns.Count; j++)
+                {
+                    row.CreateCell(j, CellType.STRING).SetCellValue(dt.Rows[i][j].ToString());
+                }
+            }
+            using (FileStream stream = File.OpenWrite(filePath))
+            {
+                workbook.Write(stream);
+                stream.Close();
+            }
+            GC.Collect();
+        }
+    }
+}

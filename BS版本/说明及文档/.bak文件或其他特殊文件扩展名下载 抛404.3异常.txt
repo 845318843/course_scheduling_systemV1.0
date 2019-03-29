@@ -1,0 +1,3 @@
+﻿http://www.jb51.net/article/49743.htm
+.bak文件扩展名或其他特殊扩展名需要下载时，需要在IIS服务器上面，新增特殊的MIME类型，
+.bak的MIME类型是application/x-msdownload

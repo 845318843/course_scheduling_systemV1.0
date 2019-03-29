@@ -1,0 +1,145 @@
+C:\Users\ChenGang\Desktop\LabCourseSys\LabCourseSys\obj\Debug\LabCourseSys.csprojResolveAssemblyReference.cache
+C:\Users\ChenGang\Desktop\LabCourseSys\LabCourseSys\bin\LabCourseSys.dll
+C:\Users\ChenGang\Desktop\LabCourseSys\LabCourseSys\bin\LabCourseSys.pdb
+C:\Users\ChenGang\Desktop\LabCourseSys\LabCourseSys\bin\BLL.dll
+C:\Users\ChenGang\Desktop\LabCourseSys\LabCourseSys\bin\NPOI.dll
+C:\Users\ChenGang\Desktop\LabCourseSys\LabCourseSys\bin\BLL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSys\LabCourseSys\obj\Debug\LabCourseSys.dll
+C:\Users\ChenGang\Desktop\LabCourseSys\LabCourseSys\obj\Debug\LabCourseSys.pdb
+C:\Users\ChenGang\Desktop\LabCourseSys\LabCourseSys\bin\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSys\LabCourseSys\bin\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem\LabCourseSys\bin\LabCourseSys.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem\LabCourseSys\bin\LabCourseSys.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem\LabCourseSys\bin\BLL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem\LabCourseSys\bin\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem\LabCourseSys\bin\NPOI.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem\LabCourseSys\bin\BLL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem\LabCourseSys\bin\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem\LabCourseSys\obj\Debug\LabCourseSys.csprojResolveAssemblyReference.cache
+C:\Users\ChenGang\Desktop\LabCourseSystem\LabCourseSys\obj\Debug\LabCourseSys.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem\LabCourseSys\obj\Debug\LabCourseSys.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\bin\LabCourseSys.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\bin\LabCourseSys.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\bin\BLL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\bin\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\bin\NPOI.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\bin\BLL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\bin\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\obj\Debug\LabCourseSys.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\obj\Debug\LabCourseSys.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\obj\Debug\LabCourseSys.csprojResolveAssemblyReference.cache
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\bin\Microsoft.Office.Interop.Word.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\bin\office.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\bin\Microsoft.Vbe.Interop.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem - 副本\LabCourseSys\bin\office.xml
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\bin\LabCourseSys.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\bin\LabCourseSys.pdb
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\bin\BLL.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\bin\DAL.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\bin\NPOI.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\bin\Microsoft.Office.Interop.Word.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\bin\office.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\bin\Microsoft.Vbe.Interop.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\bin\BLL.pdb
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\bin\DAL.pdb
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\bin\office.xml
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\obj\Debug\LabCourseSys.csprojResolveAssemblyReference.cache
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\obj\Debug\LabCourseSys.dll
+C:\Users\ChenGang\Desktop\排课系统\LabCourseSystem1028\LabCourseSys\obj\Debug\LabCourseSys.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\bin\LabCourseSys.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\bin\LabCourseSys.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\bin\BLL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\bin\DAL.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\bin\NPOI.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\bin\Microsoft.Office.Interop.Word.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\bin\office.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\bin\Microsoft.Vbe.Interop.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\bin\BLL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\bin\DAL.pdb
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\bin\office.xml
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\obj\Debug\LabCourseSys.csprojResolveAssemblyReference.cache
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\obj\Debug\LabCourseSys.dll
+C:\Users\ChenGang\Desktop\LabCourseSystem1104\LabCourseSys\obj\Debug\LabCourseSys.pdb
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\LabCourseSys\bin\LabCourseSys.dll
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\LabCourseSys\bin\LabCourseSys.pdb
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\LabCourseSys\bin\BLL.dll
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\LabCourseSys\bin\DAL.dll
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\LabCourseSys\bin\NPOI.dll
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\LabCourseSys\bin\BLL.pdb
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\LabCourseSys\bin\DAL.pdb
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\LabCourseSys\obj\Debug\LabCourseSys.csprojResolveAssemblyReference.cache
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\LabCourseSys\obj\Debug\LabCourseSys.dll
+E:\项目文件夹\实验教学排课系统 1121\LabCourseSystem1121\LabCourseSys\obj\Debug\LabCourseSys.pdb
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\bin\LabCourseSys.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\bin\LabCourseSys.pdb
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\bin\BLL.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\bin\DAL.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\bin\NPOI.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\bin\Microsoft.Office.Interop.Word.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\bin\office.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\bin\Microsoft.Vbe.Interop.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\bin\BLL.pdb
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\bin\DAL.pdb
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\bin\office.xml
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\obj\Debug\LabCourseSys.csprojResolveAssemblyReference.cache
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\obj\Debug\LabCourseSys.dll
+I:\Users\CG\Desktop\LabCourseSystem1121\LabCourseSys\obj\Debug\LabCourseSys.pdb
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\bin\LabCourseSys.dll
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\bin\LabCourseSys.pdb
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\bin\BLL.dll
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\bin\DAL.dll
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\bin\NPOI.dll
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\bin\Microsoft.Office.Interop.Word.dll
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\bin\office.dll
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\bin\Microsoft.Vbe.Interop.dll
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\bin\BLL.pdb
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\bin\DAL.pdb
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\bin\office.xml
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\obj\Debug\LabCourseSys.csprojResolveAssemblyReference.cache
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\obj\Debug\LabCourseSys.dll
+I:\Users\CG\Desktop\LabCourseSystem1121 - 副本\LabCourseSys\obj\Debug\LabCourseSys.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\bin\LabCourseSys.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\bin\LabCourseSys.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\bin\BLL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\bin\DAL.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\bin\BLL.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\bin\DAL.pdb
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\obj\Debug\LabCourseSys.csprojResolveAssemblyReference.cache
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\obj\Debug\LabCourseSys.dll
+I:\Users\CG\Desktop\LabCourseSystem   2016.1.1\LabCourseSys\obj\Debug\LabCourseSys.pdb
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\LabCourseSys\bin\LabCourseSys.dll
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\LabCourseSys\bin\LabCourseSys.pdb
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\LabCourseSys\bin\BLL.dll
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\LabCourseSys\bin\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\LabCourseSys\bin\BLL.pdb
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\LabCourseSys\bin\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\LabCourseSys\obj\Debug\LabCourseSys.csprojResolveAssemblyReference.cache
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\LabCourseSys\obj\Debug\LabCourseSys.dll
+E:\项目文件夹\教学实践排课系统    2017-01-08\LabCourseSystem   2016.1.1\LabCourseSys\obj\Debug\LabCourseSys.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\LabCourseSys\bin\LabCourseSys.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\LabCourseSys\bin\LabCourseSys.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\LabCourseSys\bin\BLL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\LabCourseSys\bin\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\LabCourseSys\bin\BLL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\LabCourseSys\bin\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\LabCourseSys\obj\Debug\LabCourseSys.csprojResolveAssemblyReference.cache
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\LabCourseSys\obj\Debug\LabCourseSys.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.2.24\LabCourseSys\obj\Debug\LabCourseSys.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\LabCourseSys\bin\LabCourseSys.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\LabCourseSys\bin\LabCourseSys.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\LabCourseSys\bin\BLL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\LabCourseSys\bin\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\LabCourseSys\bin\BLL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\LabCourseSys\bin\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\LabCourseSys\obj\Debug\LabCourseSys.csprojResolveAssemblyReference.cache
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\LabCourseSys\obj\Debug\LabCourseSys.dll
+E:\项目文件夹\教学实践排课系统    2017-02-24\LabCourseSystem   2017.3.5\LabCourseSys\obj\Debug\LabCourseSys.pdb
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\LabCourseSys\bin\LabCourseSys.dll
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\LabCourseSys\bin\LabCourseSys.pdb
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\LabCourseSys\bin\BLL.dll
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\LabCourseSys\bin\DAL.dll
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\LabCourseSys\bin\BLL.pdb
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\LabCourseSys\bin\DAL.pdb
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\LabCourseSys\obj\Debug\LabCourseSys.dll
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\LabCourseSys\obj\Debug\LabCourseSys.pdb
+E:\项目文件夹\教学实践排课系统    2017-03-13\LabCourseSystem   2017.3.5\LabCourseSys\obj\Debug\LabCourseSys.csprojResolveAssemblyReference.cache

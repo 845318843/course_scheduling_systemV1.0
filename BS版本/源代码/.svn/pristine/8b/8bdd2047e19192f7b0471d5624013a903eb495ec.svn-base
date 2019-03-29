@@ -1,0 +1,38 @@
+﻿using BLL;
+using Common;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Services;
+
+namespace LabCourseSys.webservice
+{
+    /// <summary>
+    /// userService 的摘要说明
+    /// </summary>
+    [WebService(Namespace = "http://tempuri.org/")]
+    [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
+    [System.ComponentModel.ToolboxItem(false)]
+    // 若要允许使用 ASP.NET AJAX 从脚本中调用此 Web 服务，请取消注释以下行。 
+    [System.Web.Script.Services.ScriptService]
+    public class userService : System.Web.Services.WebService
+    {
+        BLL_users u = new BLL_users();
+        [WebMethod]
+        public string HelloWorld()
+        {
+            return "Hello World";
+        }
+        [WebMethod]
+        public string findAll()
+        {
+            return JsonCast.DataTableToJSON(u.findAll(), false).ToString();
+        }
+        [WebMethod]
+        public string login(string name, string pwd)
+        {
+            return u.judge(name, pwd);
+        }
+    }
+}

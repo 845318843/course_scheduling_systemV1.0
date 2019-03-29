@@ -1,0 +1,27 @@
+﻿$(function () {
+    loadAllC();
+})
+function loadAllC() {
+    var htmltxt = "";
+    $.ajax({
+        type: "post",
+        contentType: "application/json",
+        url: "../../webService/userService.asmx/findAll",
+        dataType: "json",
+        async: false,
+        success: function (result) {
+            var res = eval(result.d);
+            htmltxt = "<div class=\"span12\" style='padding:8px'><table class=\"table table-condensed table-bordered table-hover tab\">  <thead> <tr><th>序号</th><th>用户名</th><th>密码</th><th>角色</th><th>描述</th><th>操作</th></tr> </thead><tbody id=\"tbody\">";
+            $.each(res, function (i, d) {
+                var n = i;
+                var no = n + 1;
+                htmltxt += " <tr><td>" + no + "</td><td>" + d.用户名 + "</td><td>" + d.密码 + "</td><td>" + d.角色 + "</td><td>" + d.描述 + "</td><td> <span style=''><input type='button' class=\"btn btn-success\"  value='编辑' onclick='plan(" + d.detailid + ");' /></span></td></tr>";
+            });
+            htmltxt += "</tbody></table></div>";
+            $("#contents").html(htmltxt);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+
+        }
+    });
+}
